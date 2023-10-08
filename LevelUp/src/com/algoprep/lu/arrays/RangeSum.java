@@ -23,12 +23,11 @@ public class RangeSum {
     private static void queries(int[][] ar, int[] br) {
         prefix(br);
         for (int i = 0; i < ar.length; i++) {
-            if (ar[i][1] == ar[i][0]) {
-                System.out.println(ar[i][0]);
-                continue;
-            }
-            if (ar[i][0] > 0) System.out.println(br[ar[i][1]] - br[ar[i][0] - 1]);
-            else if (ar[i][0] == 0) {
+            int l = ar[i][0];
+            int h = ar[i][1];
+            System.out.println(l+" "+h);
+            if (l > 0) System.out.println(br[h] - br[l - 1]);
+            else {
                 System.out.println(br[ar[i][1]]);
             }
         }

@@ -1,4 +1,4 @@
-package com.algoprep.lu.arrays;
+package com.algoprep.lu.arrays.subarray;
 
 import java.util.Scanner;
 

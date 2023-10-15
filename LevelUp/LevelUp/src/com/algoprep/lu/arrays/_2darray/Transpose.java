@@ -19,8 +19,7 @@ public class Transpose {
 
     private static void transpose(int[][] ar) {
         for (int i = 0; i < ar.length; i++) {
-            for (int j = 0; j < ar[i].length; j++) {
-                if (i == j) break;
+            for (int j = 0; j < i; j++) {
                 int temp = ar[i][j];
                 ar[i][j] = ar[j][i];
                 ar[j][i] = temp;

@@ -32,9 +32,13 @@ public class RotateMatrix {
 
     static void reverse(int[] ar) {
         for (int i = 0; i < ar.length / 2; i++) {
-            int temp = ar[i];
-            ar[i] = ar[ar.length - 1 - i];
-            ar[ar.length - 1 - i] = temp;
+            swap(ar, i, ar.length - 1 - i);
         }
+    }
+
+    static void swap(int[] ar, int i, int j) {
+        int temp = ar[i];
+        ar[i] = ar[j];
+        ar[j] = temp;
     }
 }

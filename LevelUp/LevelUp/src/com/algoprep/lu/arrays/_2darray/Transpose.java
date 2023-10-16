@@ -17,7 +17,7 @@ public class Transpose {
         scanner.close();
     }
 
-    private static void transpose(int[][] ar) {
+     static void transpose(int[][] ar) {
         for (int i = 0; i < ar.length; i++) {
             for (int j = 0; j < i; j++) {
                 int temp = ar[i][j];
@@ -27,7 +27,7 @@ public class Transpose {
         }
     }
 
-    private static void printMatrix(int[][] ar) {
+    static void printMatrix(int[][] ar) {
         for (int i = 0; i < ar.length; i++) {
             for (int j = 0; j < ar[i].length; j++) {
                 System.out.print(ar[i][j] + " ");

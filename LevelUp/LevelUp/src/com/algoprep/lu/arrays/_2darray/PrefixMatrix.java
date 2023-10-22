@@ -18,7 +18,7 @@ public class PrefixMatrix {
         scanner.close();
     }
 
-    private static int[][] getPrefix(int[][] ar) {
+     static int[][] getPrefix(int[][] ar) {
         for (int i = 0; i < ar.length; i++) {
             for (int j = 1; j < ar[i].length; j++) {
                 ar[i][j] = ar[i][j] + ar[i][j - 1];

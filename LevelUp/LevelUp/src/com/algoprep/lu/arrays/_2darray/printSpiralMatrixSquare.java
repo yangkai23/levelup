@@ -2,7 +2,7 @@ package com.algoprep.lu.arrays._2darray;
 
 import java.util.Scanner;
 
-public class printSpiralMatrix {
+public class printSpiralMatrixSquare {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[][] ar = new int[scanner.nextInt()][scanner.nextInt()];

@@ -12,11 +12,11 @@ public class printSpiralMatrixMxN {
             }
         }
         printMatrix(ar);
-        printBoundary(ar);
+        printMatrixMxN(ar);
         scanner.close();
     }
 
-    public static void printBoundary(int[][] ar) {
+    public static void printMatrixMxN(int[][] ar) {
         int i = 0;
         int j = 0;
         int rsteps = ar[0].length - 1;
@@ -58,13 +58,15 @@ public class printSpiralMatrixMxN {
                 i++;
             }
         }
-
-        static void printMatrix ( int[][] ar){
-            for (int i = 0; i < ar.length; i++) {
-                for (int j = 0; j < ar[i].length; j++) {
-                    System.out.print(ar[i][j] + " ");
-                }
-                System.out.println();
-            }
-        }
     }
+
+    static void printMatrix(int[][] ar) {
+        for (int i = 0; i < ar.length; i++) {
+            for (int j = 0; j < ar[i].length; j++) {
+                System.out.print(ar[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+    }
+}

@@ -60,6 +60,27 @@ public class BinaryTree {
         System.out.print(root.data + " -> ");
     }
 
+    public int sizeOfTree() {
+        return size(this.root);
+    }
+
+    private int size(Node root) {
+        if (root == null) return 0;
+        int left = size(root.left);
+        int right = size(root.right);
+        return left + right + 1;
+    }
+    public int sumOfNodesOfTree() {
+        return sum(this.root);
+    }
+
+    private int sum(Node root) {
+        if (root == null) return 0;
+        int lsum = sum(root.left);
+        int rsum = sum(root.right);
+        return lsum + rsum + (Integer) root.data;
+    }
+
     private class Node {
         Object data;
         Node right;

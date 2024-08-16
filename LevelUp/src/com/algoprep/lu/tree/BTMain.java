@@ -15,5 +15,7 @@ public class BTMain {
         binaryTree.InOrderTraversal();
         System.out.println();
         binaryTree.postOrderTraversal();
+        System.out.println();
+        binaryTree.levelOrderTraversal();
     }
 }

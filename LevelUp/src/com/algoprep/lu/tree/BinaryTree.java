@@ -1,5 +1,8 @@
 package com.algoprep.lu.tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BinaryTree {
     private Node root;
 
@@ -70,6 +73,7 @@ public class BinaryTree {
         int right = size(root.right);
         return left + right + 1;
     }
+
     public int sumOfNodesOfTree() {
         return sum(this.root);
     }
@@ -80,6 +84,19 @@ public class BinaryTree {
         int rsum = sum(root.right);
         return lsum + rsum + (Integer) root.data;
     }
+
+    public void levelOrderTraversal() {
+        System.out.print("Level order Traversal : ");
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(this.root);
+        while (!queue.isEmpty()) {
+            Node curr = queue.poll();
+            System.out.print(curr.data + " -> ");
+            if (curr.left != null) queue.add(curr.left);
+            if (curr.right != null) queue.add(curr.right);
+        }
+    }
+
 
     private class Node {
         Object data;

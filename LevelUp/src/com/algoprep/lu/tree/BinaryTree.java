@@ -96,6 +96,17 @@ public class BinaryTree {
             if (curr.right != null) queue.add(curr.right);
         }
     }
+    public void reverseLevelOrderTraversal() {
+        System.out.print("Reverse Level order Traversal : ");
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(this.root);
+        while (!queue.isEmpty()) {
+            Node curr = queue.poll();
+            System.out.print(curr.data + " -> ");
+            if (curr.right != null) queue.add(curr.right);
+            if (curr.left != null) queue.add(curr.left);
+        }
+    }
 
 
     private class Node {

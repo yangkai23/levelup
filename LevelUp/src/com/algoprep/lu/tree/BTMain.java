@@ -17,5 +17,7 @@ public class BTMain {
         binaryTree.postOrderTraversal();
         System.out.println();
         binaryTree.levelOrderTraversal();
+        System.out.println();
+        binaryTree.reverseLevelOrderTraversal();
     }
 }

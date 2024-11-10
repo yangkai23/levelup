@@ -42,7 +42,7 @@ public class SortArrayByIncreasingFrequency {
             ar[pointer++]=entry;
         }
 //        Comparator<Map.Entry<Integer,Integer>> keyComparator=(a, b)->a.getKey()>b.getKey()?1:b.getKey()>a.getKey()?-1:0;
-        Comparator<Map.Entry<Integer,Integer>> valueComparator=(a, b)->a.getValue()>b.getValue()?1:b.getValue()>a.getValue()?-1:a.getKey()>b.getKey()?-1:b.getKey()>a.getKey()?1:0;
+        Comparator<Map.Entry<Integer,Integer>> valueComparator=(a, b)->a.getValue()>b.getValue()?1:b.getValue()>a.getValue()?-1: b.getKey().compareTo(a.getKey());
         Arrays.sort(ar,valueComparator);
 
         System.out.println(Arrays.toString(ar));

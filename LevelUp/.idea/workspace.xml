@@ -1,48 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="">
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="is connected graph">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LU.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelUp/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LevelUp/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/ArrayPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/ArrayPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/MajorityElement1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/MajorityElement1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/MajorityElement2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/MajorityElement2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/MaxChunks1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/MaxChunks1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/MaxChunks2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/MaxChunks2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/MissingElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/MissingElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/PossibleNxtGreatestElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/PossibleNxtGreatestElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/RainWaterTrapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/RainWaterTrapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/RangeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/RangeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/AllSubMatrixSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/AllSubMatrixSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/PrefixMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/PrefixMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/PrintBoundaryMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/PrintBoundaryMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/RotateMatrixAntiClockWise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/RotateMatrixAntiClockWise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/RotateMatrixClockWise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/RotateMatrixClockWise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/SubMatrixSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/SubMatrixSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/Transpose.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/Transpose.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/printSpiralMatrixMxN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/printSpiralMatrixMxN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/printSpiralMatrixSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/_2darray/printSpiralMatrixSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/subarray/KadanesAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/subarray/KadanesAlgo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/subarray/MaxSubArrWithinRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/subarray/MaxSubArrWithinRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/subarray/PrintSubArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/subarray/PrintSubArr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/subarray/SubArrSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/subarray/SubArrSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/subarray/SubArraysSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/arrays/subarray/SubArraysSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/CheckIthBitSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/CheckIthBitSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/DivideTwoNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/DivideTwoNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/MaxAndOfTwoNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/MaxAndOfTwoNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/NumOfSetBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/NumOfSetBits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/SetIthBit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/SetIthBit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/SingleElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/SingleElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/ThriceFrequentArrSingleElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/ThriceFrequentArrSingleElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/ToggleIthBit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/ToggleIthBit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/TwiceFrequentTwiceElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/TwiceFrequentTwiceElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/UnsetNthBit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/bits/UnsetNthBit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/list/FloydCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/list/FloydCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/list/LinkedListMid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/list/LinkedListMid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/list/ReverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/list/ReverseLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/list/SinglyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/list/SinglyLinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/list/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/list/SinglyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/list/SinglyLinkedListMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/list/SinglyLinkedListMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/maths/PrimeFactorization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/maths/PrimeFactorization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/maths/PrintAllPrimesSoEAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/maths/PrintAllPrimesSoEAlgo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/maths/SmallestPrimeFactorSoEAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/maths/SmallestPrimeFactorSoEAlgo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/msc/MedianArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/msc/MedianArr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/msc/WordReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/msc/WordReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/queue/FirstNonRepeatingCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/queue/FirstNonRepeatingCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/queue/KthNumberUsing1and2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/queue/KthNumberUsing1and2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/queue/KthPalindromeUsing1and2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/queue/KthPalindromeUsing1and2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/queue/QueueUsingStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/queue/QueueUsingStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/queue/ReverseFirstKElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/queue/ReverseFirstKElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/sort/GoodInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/sort/GoodInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/sort/OrderOfRemoval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/sort/OrderOfRemoval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/stack/AdjacentRemove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/stack/AdjacentRemove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/stack/BasicValidParenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/stack/BasicValidParenthesis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/stack/MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/stack/MinStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/tree/BTMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/tree/BTMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/tree/BinaryTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/tree/BinaryTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/algoprep/lu/tree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/Light.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/Light.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/LightOffCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/LightOffCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/LightOnCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/LightOnCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/RemoteControlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/RemoteControlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/SimpleRemoteControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/SimpleRemoteControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/Stereo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/Stereo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/StereoOffCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/StereoOffCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/StereoWithCDCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/command/StereoWithCDCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/decorator/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/decorator/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/decorator/DecoratorPatternDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/decorator/DecoratorPatternDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/decorator/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/decorator/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/decorator/RedShapeDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/decorator/RedShapeDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/decorator/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/decorator/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/decorator/ShapeDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/decorator/ShapeDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/factory/APIDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/factory/APIDownloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/factory/Downloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/factory/Downloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/factory/DownloaderFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/factory/DownloaderFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/factory/FTPDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/factory/FTPDownloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/observer/AverageScoreDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/observer/AverageScoreDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/observer/CricketData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/observer/CricketData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/observer/CurrentScoreDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/observer/CurrentScoreDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/observer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/observer/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/observer/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/observer/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/observer/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/observer/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/strategy/PaymentByCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/strategy/PaymentByCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/strategy/PaymentByUpi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/strategy/PaymentByUpi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/strategy/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/strategy/PaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/designpattern/strategy/PaymentStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/designpattern/strategy/PaymentStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/others/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/others/Addition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/others/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/others/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/others/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/others/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/others/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/others/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/com/others/strings/SeniorCitizenAge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/com/others/strings/SeniorCitizenAge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/gfg/maths/GCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/gfg/maths/GCD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/gfg/maths/LCM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/gfg/maths/LCM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/gfg/maths/LatinAlphaNumerical.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/gfg/maths/LatinAlphaNumerical.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/gfg/maths/LatinAlphaNumericalHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/gfg/maths/LatinAlphaNumericalHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/gfg/maths/TrailingZeroesFactorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/gfg/maths/TrailingZeroesFactorial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/leetcode/daily/SortAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/leetcode/daily/SortAnArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/leetcode/daily/SortArrayByIncreasingFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/leetcode/daily/SortArrayByIncreasingFrequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LU/leetcode/daily/SortPeople.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LU/leetcode/daily/SortPeople.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/daily/SortArrayByIncreasingFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/daily/SortArrayByIncreasingFrequency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yangkai23&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yangkai23/levelup.git&quot;,
+    &quot;accountId&quot;: &quot;8bba9406-217e-4da8-b013-cb08f8ec832a&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2WT9RXy9rwrgrJ3pvsiiifyvgxU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.ArraysTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BFS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BTMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConnectedGraph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstKLargest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstKSmallest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstNonRepeatingCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HierarchyValidation.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.KthLargest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KthNumberUsing1and2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KthPalindromeUsing1and2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M2PTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OnesComplement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SizeOfTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfNodes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TopNFrequentElements.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/U6070304/OneDrive - Clarivate Analytics/Desktop/LU&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/U6070304/OneDrive - Clarivate Analytics/Desktop/LU&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="LevelUp" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.algoprep.lu.list" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TopNFrequentElements">
+    <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algoprep.lu.graphs.BFS" />
+      <module name="LU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algoprep.lu.graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="LevelUp" />
-      <option name="filePath" />
+    <configuration name="ConnectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algoprep.lu.graphs.ConnectedGraph" />
+      <module name="LU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algoprep.lu.graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HierarchyValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.others.sresta.HierarchyValidation" />
+      <module name="LU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.others.sresta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="M2PTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.streamapi.M2PTest" />
+      <module name="LU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.streamapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopNFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.others.heaps.TopNFrequentElements" />
+      <module name="LU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.others.heaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TopNFrequentElements" />
+        <item itemvalue="Application.M2PTest" />
+        <item itemvalue="Application.HierarchyValidation" />
+        <item itemvalue="Application.ConnectedGraph" />
+        <item itemvalue="Application.BFS" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,6 +274,143 @@
       <option name="presentableId" value="Default" />
       <updated>1696745696319</updated>
     </task>
+    <task id="LOCAL-00001" summary="Command pattern Example">
+      <option name="closed" value="true" />
+      <created>1721287300597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721287300597</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Command pattern Example">
+      <option name="closed" value="true" />
+      <created>1721287318858</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721287318858</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Decorator pattern Example">
+      <option name="closed" value="true" />
+      <created>1721386179332</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721386179332</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge sort and LCD sort people">
+      <option name="closed" value="true" />
+      <created>1721643362654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721643362654</updated>
+    </task>
+    <task id="LOCAL-00005" summary="algoprep sorting problems">
+      <option name="closed" value="true" />
+      <created>1722316612251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722316612251</updated>
+    </task>
+    <task id="LOCAL-00006" summary="algoprep list problems">
+      <option name="closed" value="true" />
+      <created>1722819581140</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722819581140</updated>
+    </task>
+    <task id="LOCAL-00007" summary="stack and queue problems algoprep">
+      <option name="closed" value="true" />
+      <created>1723710034386</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723710034386</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Binary Tree traversals">
+      <option name="closed" value="true" />
+      <created>1723769489183</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723769489183</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Binary Tree size of tree and sum of nodes">
+      <option name="closed" value="true" />
+      <created>1723770611072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723770611072</updated>
+    </task>
+    <task id="LOCAL-00010" summary="git ignore">
+      <option name="closed" value="true" />
+      <created>1723770692317</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723770692317</updated>
+    </task>
+    <task id="LOCAL-00011" summary="level order traversal">
+      <option name="closed" value="true" />
+      <created>1723787304586</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723787304586</updated>
+    </task>
+    <task id="LOCAL-00012" summary="reverse level order traversal">
+      <option name="closed" value="true" />
+      <created>1724292494360</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724292494360</updated>
+    </task>
+    <task id="LOCAL-00013" summary="first k largest and smallest PQ">
+      <option name="closed" value="true" />
+      <created>1724301468106</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724301468106</updated>
+    </task>
+    <task id="LOCAL-00014" summary="kth largest PQ">
+      <option name="closed" value="true" />
+      <created>1724304653234</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724304653234</updated>
+    </task>
+    <task id="LOCAL-00015" summary="OnesComplementJava">
+      <option name="closed" value="true" />
+      <created>1726621366166</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726621366166</updated>
+    </task>
+    <task id="LOCAL-00016" summary="bfs">
+      <option name="closed" value="true" />
+      <created>1726626387354</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726626387354</updated>
+    </task>
+    <task id="LOCAL-00017" summary="is connected graph">
+      <option name="closed" value="true" />
+      <created>1726809231599</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726809231599</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,5 +423,25 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new code" />
+    <MESSAGE value="Command pattern Example" />
+    <MESSAGE value="Decorator pattern Example" />
+    <MESSAGE value="Merge sort and LCD sort people" />
+    <MESSAGE value="algoprep sorting problems" />
+    <MESSAGE value="algoprep list problems" />
+    <MESSAGE value="stack and queue problems algoprep" />
+    <MESSAGE value="Binary Tree traversals" />
+    <MESSAGE value="Binary Tree size of tree and sum of nodes" />
+    <MESSAGE value="git ignore" />
+    <MESSAGE value="level order traversal" />
+    <MESSAGE value="reverse level order traversal" />
+    <MESSAGE value="first k largest and smallest PQ" />
+    <MESSAGE value="kth largest PQ" />
+    <MESSAGE value="OnesComplementJava" />
+    <MESSAGE value="bfs" />
+    <MESSAGE value="is connected graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="is connected graph" />
   </component>
 </project>

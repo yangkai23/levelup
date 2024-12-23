@@ -18,6 +18,7 @@ public class LongestSubstringWithoutDuplicate {
         int right = 0;
         int currLen = 0;
         int max = Integer.MIN_VALUE;
+        //AASCII set size-256
         int[] hash = new int[256];
         Arrays.fill(hash, -1);
         while (right < len) {

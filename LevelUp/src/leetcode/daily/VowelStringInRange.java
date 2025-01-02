@@ -1,6 +1,7 @@
 package leetcode.daily;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Set;
 
 public class VowelStringInRange {
@@ -12,7 +13,7 @@ public class VowelStringInRange {
 
     public static int[] vowelStrings(String[] words, int[][] queries) {
         int[] prefix = new int[words.length];
-        Set<Character> vowels = Set.of('a', 'e', 'i', 'o', 'u');
+        Set<Character> vowels = new HashSet<>(Set.of('a', 'e', 'i', 'o', 'u'));
         prefix[0] = isVowelString(words[0], vowels) ? 1 : 0;
         for (int i = 1; i < words.length; i++) {
             String s = words[i];

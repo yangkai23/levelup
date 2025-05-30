@@ -21,7 +21,7 @@ public class CricketData implements Subject {
 
     @Override
     public void unRegisterObserver(Observer observer) {
-        observers.remove(observers.indexOf(observer));
+        observers.remove(observer);
     }
 
     @Override

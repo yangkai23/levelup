@@ -17,7 +17,7 @@ public class BFS {
     private static void bfs(List<List<Integer>> graph, int i) {
         boolean[] visited = new boolean[graph.size()];
         Queue<Integer> queue = new LinkedList<>();
-        queue.add(i);
+        queue.offer(i);
         visited[i] = true;
         while (!queue.isEmpty()) {
             for (int val : graph.get(queue.peek())) {

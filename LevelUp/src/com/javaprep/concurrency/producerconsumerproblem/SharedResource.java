@@ -22,7 +22,6 @@ public class SharedResource {
             }
         }
         Integer polled = bufferQueue.poll();
-        System.out.println(STR."consumed : \{polled}");
         notify();
     }
 
@@ -37,7 +36,6 @@ public class SharedResource {
             }
         }
         bufferQueue.offer(item);
-        System.out.println(STR."produced \{item}");
         notify();
     }
 }

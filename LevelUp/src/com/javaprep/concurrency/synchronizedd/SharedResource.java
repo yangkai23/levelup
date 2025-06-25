@@ -9,14 +9,12 @@ public class SharedResource {
 
 
     public synchronized void consume() {
-        System.out.println(STR."acquired lock by \{Thread.currentThread().getName()}");
         isAvailable=true;
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println(STR."released lock by \{Thread.currentThread().getName()}");
     }
 
 }

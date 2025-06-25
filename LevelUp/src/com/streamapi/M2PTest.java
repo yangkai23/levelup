@@ -1,11 +1,18 @@
 package com.streamapi;
 
-import java.util.List;
+import java.util.Comparator;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class M2PTest {
     public static void main(String[] args) {
-        var words = List.of("java8", "stream", "m2p", "api", "test");
-//        var reduce = words.stream().filter(word -> !word.matches(".*\\d.*")).reduce((acc, res) -> STR."\{acc} \{res}").orElse("");
-//        System.out.println(reduce);
+        var name = "Shanmukha Anirudh";
+          name.chars()
+                .mapToObj(c -> (char) c)
+                .collect(Collectors.toMap(Function.identity(), v -> 1L, Long::sum))
+                .values()
+                .stream().max(Comparator.naturalOrder()).orElse(-1L);
+
+
     }
 }

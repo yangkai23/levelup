@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/BinarySubarraysWithSum.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add BinarySubarraysWithSum implementation and update workspace configuration">
+      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/CountNumberOfNiceSubarrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BinarySubarraysWithSum.executor": "Run",
+    "Application.CountNumberOfNiceSubarrays.executor": "Run",
     "Application.FruitsInBasket.executor": "Debug",
     "Application.LongestRepeatingCharacterReplacement.executor": "Debug",
     "Application.LongestSubstringWithAtmostK.executor": "Debug",
@@ -76,7 +77,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BinarySubarraysWithSum">
+  <component name="RunManager" selected="Application.CountNumberOfNiceSubarrays">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -92,6 +93,19 @@
     </configuration>
     <configuration name="BinarySubarraysWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.BinarySubarraysWithSum" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountNumberOfNiceSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.CountNumberOfNiceSubarrays" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -142,19 +156,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.StringPlay" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -170,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountNumberOfNiceSubarrays" />
         <item itemvalue="Application.BinarySubarraysWithSum" />
         <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
         <item itemvalue="Application.NumOfSubstringsContainingAllThreeCharacters" />
         <item itemvalue="Application.LongestSubstringWithAtmostK" />
-        <item itemvalue="Application.StringPlay" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +213,8 @@
       <workItem from="1752385927706" duration="2957000" />
       <workItem from="1752389412017" duration="522000" />
       <workItem from="1752453589467" duration="11940000" />
-      <workItem from="1752570870925" duration="4487000" />
+      <workItem from="1752570870925" duration="5813000" />
+      <workItem from="1752773790786" duration="1586000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -334,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752571679823</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add BinarySubarraysWithSum implementation and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1752649835502</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1752649835502</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +363,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="add BinarySubarraysWithSum implementation and update workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add BinarySubarraysWithSum implementation and update workspace configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -380,6 +391,11 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/slidingwindow/BinarySubarraysWithSum.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

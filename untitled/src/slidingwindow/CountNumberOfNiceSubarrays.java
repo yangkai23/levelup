@@ -10,6 +10,13 @@ public class CountNumberOfNiceSubarrays {
         System.out.println(numberOfSubarrays(nums, 3));
     }
 
+    /**
+     *
+     *
+     * the problem is to find how many odd nums in subarray
+     * so if elements are 0 s and 1 s w.r.t even and odd respectively,
+     * then it'll become a binary subarray sum
+     */
     public static int numberOfSubarrays(int[] nums, int k) {
         if (nums == null || nums.length == 0)
             return 0;

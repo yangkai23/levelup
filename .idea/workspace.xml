@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add BinarySubarraysWithSum implementation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/CountNumberOfNiceSubarrays.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add documentation to CountNumberOfNiceSubarrays implementation explaining the approach">
+      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/SubarraysWithKDifferentIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/SubarraysWithKDifferentIntegersWithKMinus1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +59,7 @@
     "Application.MaximumPointsYouCanObtainFromCards.executor": "Debug",
     "Application.NumOfSubstringsContainingAllThreeCharacters.executor": "Debug",
     "Application.StringPlay.executor": "Debug",
+    "Application.SubarraysWithKDifferentIntegers.executor": "Run",
     "Application.slidingwindow.MaximumPointsYouCanObtainFromCards.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -77,7 +79,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CountNumberOfNiceSubarrays">
+  <component name="RunManager" selected="Application.SubarraysWithKDifferentIntegers">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -130,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithAtmostK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestSubstringWithAtmostK" />
+    <configuration name="NumOfSubstringsContainingAllThreeCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.NumOfSubstringsContainingAllThreeCharacters" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumOfSubstringsContainingAllThreeCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.NumOfSubstringsContainingAllThreeCharacters" />
+    <configuration name="SubarraysWithKDifferentIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.SubarraysWithKDifferentIntegers" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -171,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubarraysWithKDifferentIntegers" />
         <item itemvalue="Application.CountNumberOfNiceSubarrays" />
         <item itemvalue="Application.BinarySubarraysWithSum" />
         <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
         <item itemvalue="Application.NumOfSubstringsContainingAllThreeCharacters" />
-        <item itemvalue="Application.LongestSubstringWithAtmostK" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +216,8 @@
       <workItem from="1752389412017" duration="522000" />
       <workItem from="1752453589467" duration="11940000" />
       <workItem from="1752570870925" duration="5813000" />
-      <workItem from="1752773790786" duration="1586000" />
+      <workItem from="1752773790786" duration="1985000" />
+      <workItem from="1752997870670" duration="3323000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -344,7 +347,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752649835502</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add CountNumberOfNiceSubarrays implementation and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1752777689013</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1752777689013</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add documentation to CountNumberOfNiceSubarrays implementation explaining the approach">
+      <option name="closed" value="true" />
+      <created>1752777867857</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1752777867857</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +383,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
     <MESSAGE value="add BinarySubarraysWithSum implementation and update workspace configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add BinarySubarraysWithSum implementation and update workspace configuration" />
+    <MESSAGE value="add CountNumberOfNiceSubarrays implementation and update workspace configuration" />
+    <MESSAGE value="add documentation to CountNumberOfNiceSubarrays implementation explaining the approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="add documentation to CountNumberOfNiceSubarrays implementation explaining the approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

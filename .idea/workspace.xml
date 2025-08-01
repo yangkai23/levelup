@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add documentation to CountNumberOfNiceSubarrays implementation explaining the approach">
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/SubarraysWithKDifferentIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/SubarraysWithKDifferentIntegersWithKMinus1.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add SubarraysWithKDifferentIntegers and SubarraysWithKDifferentIntegersWithKMinus1 implementations and update workspace configuration">
+      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/ContainsDuplicateII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BinarySubarraysWithSum.executor": "Run",
+    "Application.ContainsDuplicateII.executor": "Run",
     "Application.CountNumberOfNiceSubarrays.executor": "Run",
     "Application.FruitsInBasket.executor": "Debug",
     "Application.LongestRepeatingCharacterReplacement.executor": "Debug",
@@ -79,7 +79,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SubarraysWithKDifferentIntegers">
+  <component name="RunManager" selected="Application.ContainsDuplicateII">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -106,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContainsDuplicateII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.ContainsDuplicateII" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountNumberOfNiceSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.CountNumberOfNiceSubarrays" />
       <module name="untitled" />
@@ -121,19 +134,6 @@
     </configuration>
     <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestRepeatingCharacterReplacement" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumOfSubstringsContainingAllThreeCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.NumOfSubstringsContainingAllThreeCharacters" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContainsDuplicateII" />
         <item itemvalue="Application.SubarraysWithKDifferentIntegers" />
         <item itemvalue="Application.CountNumberOfNiceSubarrays" />
         <item itemvalue="Application.BinarySubarraysWithSum" />
         <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
-        <item itemvalue="Application.NumOfSubstringsContainingAllThreeCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +217,8 @@
       <workItem from="1752453589467" duration="11940000" />
       <workItem from="1752570870925" duration="5813000" />
       <workItem from="1752773790786" duration="1985000" />
-      <workItem from="1752997870670" duration="3323000" />
+      <workItem from="1752997870670" duration="4190000" />
+      <workItem from="1754016517895" duration="1308000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -363,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752777867857</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add SubarraysWithKDifferentIntegers and SubarraysWithKDifferentIntegersWithKMinus1 implementations and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1753029006581</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1753029006581</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +394,8 @@
     <MESSAGE value="add BinarySubarraysWithSum implementation and update workspace configuration" />
     <MESSAGE value="add CountNumberOfNiceSubarrays implementation and update workspace configuration" />
     <MESSAGE value="add documentation to CountNumberOfNiceSubarrays implementation explaining the approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="add documentation to CountNumberOfNiceSubarrays implementation explaining the approach" />
+    <MESSAGE value="add SubarraysWithKDifferentIntegers and SubarraysWithKDifferentIntegersWithKMinus1 implementations and update workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SubarraysWithKDifferentIntegers and SubarraysWithKDifferentIntegersWithKMinus1 implementations and update workspace configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -417,6 +427,14 @@
           <url>file://$PROJECT_DIR$/untitled/src/slidingwindow/BinarySubarraysWithSum.java</url>
           <line>17</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/slidingwindow/ContainsDuplicateII.java</url>
+          <line>15</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

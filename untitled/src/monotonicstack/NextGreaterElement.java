@@ -3,17 +3,20 @@ package monotonicstack;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
+import java.util.HashMap;
 
 /**
  * @author Shanmukha Anirudh
  * @date 17/08/25
  */
 public class NextGreaterElement {
-    public static int[] nextLargerElement(int[] arr) {
+    public static int[] nextLargerElement(int[] nums1, int[] nums2) {
         Deque<Integer> deque = new ArrayDeque<>();
-        int[] result = new int[arr.length];
-        for (int i = arr.length - 1; i >= 0; i--) {
-            while (!deque.isEmpty() && deque.peek() < arr[i]) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int[] result = new int[nums2.length];
+        for (int i = nums2.length - 1; i >= 0; i--) {
+            map.put(nums2[i], i);
+            while (!deque.isEmpty() && deque.peek() < nums2[i]) {
                 deque.poll();
             }
             if (deque.isEmpty()) {
@@ -22,13 +25,18 @@ public class NextGreaterElement {
                 result[i] = deque.peek();
             }
 
-            deque.push(arr[i]);
+            deque.push(nums2[i]);
         }
-        return result;
+        int[] output = new int[nums1.length];
+        for (int i = 0; i < nums1.length; i++) {
+            output[i] = result[map.get(nums1[i])];
+        }
+        return output;
     }
 
     public static void main(String[] args) {
-        int[] arr = {6, 8, 0, 1, 3};
-        System.out.println(Arrays.toString(nextLargerElement(arr)));
+        int[] nums1 = {4, 1, 2};
+        int[] nums2 = {1, 3, 4, 2};
+        System.out.println(Arrays.toString(nextLargerElement(nums1, nums2)));
     }
 }

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add SubarraysWithKDifferentIntegers and SubarraysWithKDifferentIntegersWithKMinus1 implementations and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/ContainsDuplicateII.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add MinimumSizeSubarraySum implementation and update workspace configuration">
+      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/NextGreaterElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +58,9 @@
     "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Debug",
     "Application.MaxConsecutiveOnesIII.executor": "Debug",
     "Application.MaximumPointsYouCanObtainFromCards.executor": "Debug",
+    "Application.MinStack.executor": "Run",
+    "Application.MinimumSizeSubarraySum.executor": "Debug",
+    "Application.NextGreaterElement.executor": "Run",
     "Application.NumOfSubstringsContainingAllThreeCharacters.executor": "Debug",
     "Application.StringPlay.executor": "Debug",
     "Application.SubarraysWithKDifferentIntegers.executor": "Run",
@@ -79,7 +83,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ContainsDuplicateII">
+  <component name="RunManager" selected="Application.NextGreaterElement">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -89,19 +93,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="LevelUp" />
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySubarraysWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.BinarySubarraysWithSum" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,8 +110,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountNumberOfNiceSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.CountNumberOfNiceSubarrays" />
+    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="monotonicstack.MinStack" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="monotonicstack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.MinimumSizeSubarraySum" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -132,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestRepeatingCharacterReplacement" />
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="monotonicstack.NextGreaterElement" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="monotonicstack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NextGreaterElement" />
+        <item itemvalue="Application.MinStack" />
+        <item itemvalue="Application.MinimumSizeSubarraySum" />
         <item itemvalue="Application.ContainsDuplicateII" />
         <item itemvalue="Application.SubarraysWithKDifferentIntegers" />
-        <item itemvalue="Application.CountNumberOfNiceSubarrays" />
-        <item itemvalue="Application.BinarySubarraysWithSum" />
-        <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +222,9 @@
       <workItem from="1752570870925" duration="5813000" />
       <workItem from="1752773790786" duration="1985000" />
       <workItem from="1752997870670" duration="4190000" />
-      <workItem from="1754016517895" duration="1308000" />
+      <workItem from="1754016517895" duration="2936000" />
+      <workItem from="1754474946754" duration="1159000" />
+      <workItem from="1755086834356" duration="6318000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -372,7 +378,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753029006581</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add ContainsDuplicateII implementation and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1754019154928</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1754019154928</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add MinimumSizeSubarraySum implementation and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1755086854845</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1755086854845</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +417,9 @@
     <MESSAGE value="add CountNumberOfNiceSubarrays implementation and update workspace configuration" />
     <MESSAGE value="add documentation to CountNumberOfNiceSubarrays implementation explaining the approach" />
     <MESSAGE value="add SubarraysWithKDifferentIntegers and SubarraysWithKDifferentIntegersWithKMinus1 implementations and update workspace configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SubarraysWithKDifferentIntegers and SubarraysWithKDifferentIntegersWithKMinus1 implementations and update workspace configuration" />
+    <MESSAGE value="add ContainsDuplicateII implementation and update workspace configuration" />
+    <MESSAGE value="add MinimumSizeSubarraySum implementation and update workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MinimumSizeSubarraySum implementation and update workspace configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -427,14 +451,6 @@
           <url>file://$PROJECT_DIR$/untitled/src/slidingwindow/BinarySubarraysWithSum.java</url>
           <line>17</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/untitled/src/slidingwindow/ContainsDuplicateII.java</url>
-          <line>15</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add SumOfSubarrayMinimums implementation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/SumOfSubarrayRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/AsteroidCollision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AsteroidCollision.executor": "Run",
     "Application.BinarySubarraysWithSum.executor": "Run",
     "Application.ContainsDuplicateII.executor": "Run",
     "Application.CountNumberOfNiceSubarrays.executor": "Run",
@@ -86,7 +87,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumOfSubarrayRanges">
+  <component name="RunManager" selected="Application.AsteroidCollision">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -100,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="monotonicstack.NextGreaterElement" />
+    <configuration name="AsteroidCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="monotonicstack.AsteroidCollision" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -180,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AsteroidCollision" />
         <item itemvalue="Application.SumOfSubarrayRanges" />
         <item itemvalue="Application.SumOfSubarrayMinimums" />
         <item itemvalue="Application.PreviousSmallerElement" />
         <item itemvalue="Application.NextGreaterElementII" />
-        <item itemvalue="Application.NextGreaterElement" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +230,8 @@
       <workItem from="1754474946754" duration="1159000" />
       <workItem from="1755086834356" duration="6318000" />
       <workItem from="1755429215189" duration="7504000" />
-      <workItem from="1755656961536" duration="4238000" />
+      <workItem from="1755656961536" duration="5039000" />
+      <workItem from="1755798620223" duration="1040000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -447,7 +449,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755709139656</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add SumOfSubarrayMinimums implementation and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1755712882527</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1755712882527</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

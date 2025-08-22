@@ -8,6 +8,13 @@ import java.util.Deque;
  * @date 22/08/25
  */
 public class RectangleHistogram {
+    /**
+     * Computes the largest rectangular area in a histogram given an array of bar heights.
+     * The method uses a monotonic stack to efficiently calculate the maximum area.
+     *
+     * @param heights an array of integers where each integer represents the height of a bar in the histogram
+     * @return the area of the largest rectangle that can be formed in the histogram
+     */
     public static int largestRectangleArea(int[] heights) {
         int maxArea = 0;
         Deque<Integer> stack = new ArrayDeque<>();

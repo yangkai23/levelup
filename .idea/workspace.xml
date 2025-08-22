@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add SumOfSubarrayMinimums implementation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/AsteroidCollision.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add AsteroidCollision implementation and update workspace configuration">
+      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/RectangleHistogram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,48 +46,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AsteroidCollision.executor": "Run",
-    "Application.BinarySubarraysWithSum.executor": "Run",
-    "Application.ContainsDuplicateII.executor": "Run",
-    "Application.CountNumberOfNiceSubarrays.executor": "Run",
-    "Application.FruitsInBasket.executor": "Debug",
-    "Application.LongestRepeatingCharacterReplacement.executor": "Debug",
-    "Application.LongestSubstringWithAtmostK.executor": "Debug",
-    "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Debug",
-    "Application.MaxConsecutiveOnesIII.executor": "Debug",
-    "Application.MaximumPointsYouCanObtainFromCards.executor": "Debug",
-    "Application.MinStack.executor": "Run",
-    "Application.MinimumSizeSubarraySum.executor": "Debug",
-    "Application.NextGreaterElement.executor": "Run",
-    "Application.NextGreaterElementII.executor": "Run",
-    "Application.NumOfSubstringsContainingAllThreeCharacters.executor": "Debug",
-    "Application.PreviousSmallerElement.executor": "Debug",
-    "Application.StringPlay.executor": "Debug",
-    "Application.SubarraysWithKDifferentIntegers.executor": "Run",
-    "Application.SumOfSubarrayMinimums.executor": "Debug",
-    "Application.SumOfSubarrayRanges.executor": "Run",
-    "Application.slidingwindow.MaximumPointsYouCanObtainFromCards.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/shanmukhaanirudhtalluri/Documents/projects/levelup",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AsteroidCollision.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySubarraysWithSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContainsDuplicateII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountNumberOfNiceSubarrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FruitsInBasket.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LongestRepeatingCharacterReplacement.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LongestSubstringWithAtmostK.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LongestSubstringWithoutRepeatingCharacters.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaxConsecutiveOnesIII.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaximumPointsYouCanObtainFromCards.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MinStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumSizeSubarraySum.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NextGreaterElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextGreaterElementII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumOfSubstringsContainingAllThreeCharacters.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PreviousSmallerElement.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StringPlay.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SubarraysWithKDifferentIntegers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfSubarrayMinimums.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SumOfSubarrayRanges.executor&quot;: &quot;Run&quot;,
+    &quot;Application.slidingwindow.MaximumPointsYouCanObtainFromCards.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shanmukhaanirudhtalluri/Documents/projects/levelup&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.AsteroidCollision">
+}</component>
+  <component name="RunManager" selected="Application.RectangleHistogram">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -114,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElementII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="monotonicstack.NextGreaterElementII" />
+    <configuration name="PreviousSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="monotonicstack.PreviousSmallerElement" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreviousSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="monotonicstack.PreviousSmallerElement" />
+    <configuration name="RectangleHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="monotonicstack.RectangleHistogram" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -181,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RectangleHistogram" />
         <item itemvalue="Application.AsteroidCollision" />
         <item itemvalue="Application.SumOfSubarrayRanges" />
         <item itemvalue="Application.SumOfSubarrayMinimums" />
         <item itemvalue="Application.PreviousSmallerElement" />
-        <item itemvalue="Application.NextGreaterElementII" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +231,8 @@
       <workItem from="1755086834356" duration="6318000" />
       <workItem from="1755429215189" duration="7504000" />
       <workItem from="1755656961536" duration="5039000" />
-      <workItem from="1755798620223" duration="1040000" />
+      <workItem from="1755798620223" duration="1439000" />
+      <workItem from="1755884907221" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -457,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755712882527</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add AsteroidCollision implementation and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1755799741250</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1755799741250</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +497,8 @@
     <MESSAGE value="update workspace configuration" />
     <MESSAGE value="add PreviousSmallerElement implementation and update workspace configuration" />
     <MESSAGE value="add SumOfSubarrayMinimums implementation and update workspace configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SumOfSubarrayMinimums implementation and update workspace configuration" />
+    <MESSAGE value="add AsteroidCollision implementation and update workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add AsteroidCollision implementation and update workspace configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

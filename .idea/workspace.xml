@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add MaximalRectangle implementation and update workspace configuration">
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="remove unused import from MaximalRectangle and update workspace configuration">
+      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/RemoveKDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +66,7 @@
     "Application.NumOfSubstringsContainingAllThreeCharacters.executor": "Debug",
     "Application.PreviousSmallerElement.executor": "Debug",
     "Application.RectangleHistogram.executor": "Run",
+    "Application.RemoveKDigits.executor": "Run",
     "Application.StringPlay.executor": "Debug",
     "Application.SubarraysWithKDifferentIntegers.executor": "Run",
     "Application.SumOfSubarrayMinimums.executor": "Debug",
@@ -88,7 +90,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaximalRectangle">
+  <component name="RunManager" selected="Application.RemoveKDigits">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -141,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfSubarrayMinimums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="monotonicstack.SumOfSubarrayMinimums" />
+    <configuration name="RemoveKDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="monotonicstack.RemoveKDigits" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -182,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveKDigits" />
         <item itemvalue="Application.MaximalRectangle" />
         <item itemvalue="Application.RectangleHistogram" />
         <item itemvalue="Application.AsteroidCollision" />
         <item itemvalue="Application.SumOfSubarrayRanges" />
-        <item itemvalue="Application.SumOfSubarrayMinimums" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +236,7 @@
       <workItem from="1755656961536" duration="5039000" />
       <workItem from="1755798620223" duration="1439000" />
       <workItem from="1755884907221" duration="1521000" />
-      <workItem from="1755932316988" duration="4143000" />
+      <workItem from="1755932316988" duration="8419000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -492,7 +494,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755937099113</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="remove unused import from MaximalRectangle and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1756027320594</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1756027320594</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +537,8 @@
     <MESSAGE value="add RectangleHistogram implementation and update workspace configuration" />
     <MESSAGE value="add largestRectangleArea method to RectangleHistogram and update workspace configuration" />
     <MESSAGE value="add MaximalRectangle implementation and update workspace configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MaximalRectangle implementation and update workspace configuration" />
+    <MESSAGE value="remove unused import from MaximalRectangle and update workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unused import from MaximalRectangle and update workspace configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

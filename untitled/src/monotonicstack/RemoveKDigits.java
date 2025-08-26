@@ -9,6 +9,16 @@ import java.util.Deque;
  */
 public class RemoveKDigits {
 
+    /**
+     * Removes exactly k digits from the given numeric string `num` to produce
+     * the smallest possible number. The result is represented as a string with
+     * leading zeros removed. If the number becomes empty, "0" is returned.
+     *
+     * @param num The input string representing a non-negative numeric value.
+     * @param k The number of digits to remove from the string `num`.
+     * @return The smallest possible numeric string after removing k digits,
+     *         with leading zeros removed. Returns "0" if the resulting number is empty.
+     */
     public static String removeKDigits(String num, int k) {
         if (num == null || num.isEmpty()) return "0";
 

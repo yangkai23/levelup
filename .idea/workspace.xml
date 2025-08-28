@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add OnlineStockSpan implementation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicqueue/SlidingWindowMaximum.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add SlidingWindowMaximum implementation and update workspace configuration">
+      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/CelebrityProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +92,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SlidingWindowMaximum">
+  <component name="RunManager" selected="Application.CelebrityProblem">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -102,6 +102,19 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="LevelUp" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CelebrityProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointers.CelebrityProblem" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twopointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,19 +134,6 @@
     </configuration>
     <configuration name="MaximalRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="monotonicstack.MaximalRectangle" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="monotonicstack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RectangleHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="monotonicstack.RectangleHistogram" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CelebrityProblem" />
         <item itemvalue="Application.SlidingWindowMaximum" />
         <item itemvalue="Application.LongestSubarrayOf1sAfterDeletingOneElement" />
         <item itemvalue="Application.RemoveKDigits" />
         <item itemvalue="Application.MaximalRectangle" />
-        <item itemvalue="Application.RectangleHistogram" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +241,7 @@
       <workItem from="1755932316988" duration="11101000" />
       <workItem from="1756178177459" duration="1374000" />
       <workItem from="1756179641735" duration="2699000" />
-      <workItem from="1756357020927" duration="4881000" />
+      <workItem from="1756357020927" duration="6044000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -539,7 +539,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756357177747</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add SlidingWindowMaximum implementation and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1756375185030</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1756375185030</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +586,8 @@
     <MESSAGE value="changes" />
     <MESSAGE value="add JavaDoc for removeKDigits method in RemoveKDigits class and update workspace configuration" />
     <MESSAGE value="add OnlineStockSpan implementation and update workspace configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add OnlineStockSpan implementation and update workspace configuration" />
+    <MESSAGE value="add SlidingWindowMaximum implementation and update workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SlidingWindowMaximum implementation and update workspace configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

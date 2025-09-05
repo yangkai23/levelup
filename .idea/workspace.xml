@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add CelebrityProblem implementation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/RemoveDuplicateLetters.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add RemoveDuplicateLetters using stack and String builder leetcode">
+      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/ShortestUnsortedContinuousSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +70,7 @@
     "Application.RectangleHistogram.executor": "Run",
     "Application.RemoveDuplicateLetters.executor": "Debug",
     "Application.RemoveKDigits.executor": "Run",
+    "Application.ShortestUnsortedContinuousSubarray.executor": "Debug",
     "Application.SlidingWindowMaximum.executor": "Run",
     "Application.StringPlay.executor": "Debug",
     "Application.SubarraysWithKDifferentIntegers.executor": "Run",
@@ -94,7 +95,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveDuplicateLetters">
+  <component name="RunManager" selected="Application.ShortestUnsortedContinuousSubarray">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -147,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveKDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="monotonicstack.RemoveKDigits" />
+    <configuration name="ShortestUnsortedContinuousSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="monotonicstack.ShortestUnsortedContinuousSubarray" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -188,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortestUnsortedContinuousSubarray" />
         <item itemvalue="Application.RemoveDuplicateLetters" />
         <item itemvalue="Application.CelebrityProblem" />
         <item itemvalue="Application.SlidingWindowMaximum" />
         <item itemvalue="Application.LongestSubarrayOf1sAfterDeletingOneElement" />
-        <item itemvalue="Application.RemoveKDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +245,8 @@
       <workItem from="1756178177459" duration="1374000" />
       <workItem from="1756179641735" duration="2699000" />
       <workItem from="1756357020927" duration="7480000" />
-      <workItem from="1756642208140" duration="4782000" />
+      <workItem from="1756642208140" duration="4838000" />
+      <workItem from="1756873185000" duration="7346000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -558,7 +560,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756376716049</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add RemoveDuplicateLetters using stack and String builder leetcode">
+      <option name="closed" value="true" />
+      <created>1756751030545</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1756751030545</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +609,8 @@
     <MESSAGE value="add OnlineStockSpan implementation and update workspace configuration" />
     <MESSAGE value="add SlidingWindowMaximum implementation and update workspace configuration" />
     <MESSAGE value="add CelebrityProblem implementation and update workspace configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CelebrityProblem implementation and update workspace configuration" />
+    <MESSAGE value="add RemoveDuplicateLetters using stack and String builder leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="add RemoveDuplicateLetters using stack and String builder leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -649,6 +660,11 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/monotonicstack/ShortestUnsortedContinuousSubarray.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

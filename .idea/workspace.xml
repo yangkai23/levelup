@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="ShortestUnsortedContinuousSubarray">
-      <change afterPath="$PROJECT_DIR$/untitled/src/design/Spreadsheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/AssignCookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/InsertInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/JumpGameII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/LargestTriangleArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/LemonadeChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/MaximumProfitInJobScheduling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/ShortestJobFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/ValidTriangleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/DailyTemperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/FinalPricesWithASpecialDiscountInAShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/FindTheMostCompetitiveSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/LFUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/ShortestSubarrayToBeRemovedToMakeArraySorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/prefixsuffix/TrappingRainWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/priorityqueue/SingleThreadedCPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/LongestWellPerformingInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/MaximumWidthRamp.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="greedy and daily problems">
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/MinimumNumberOfPlatformsRequiredForARailway.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/monotonicstack/MaximalRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/MaximalRectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/monotonicstack/ShortestUnsortedContinuousSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/ShortestUnsortedContinuousSubarray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +72,7 @@
     "Application.MaximumPointsYouCanObtainFromCards.executor": "Debug",
     "Application.MaximumWidthRamp.executor": "Debug",
     "Application.MinStack.executor": "Run",
+    "Application.MinimumNumberOfPlatformsRequiredForARailway.executor": "Debug",
     "Application.MinimumSizeSubarraySum.executor": "Debug",
     "Application.NextGreaterElement.executor": "Run",
     "Application.NextGreaterElementII.executor": "Run",
@@ -131,7 +111,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ValidTriangleNumber">
+  <component name="RunManager" selected="Application.MinimumNumberOfPlatformsRequiredForARailway">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -171,8 +151,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestJobFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.ShortestJobFirst" />
+    <configuration name="MinimumNumberOfPlatformsRequiredForARailway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.MinimumNumberOfPlatformsRequiredForARailway" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -225,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumNumberOfPlatformsRequiredForARailway" />
         <item itemvalue="Application.ValidTriangleNumber" />
         <item itemvalue="Application.Spreadsheet" />
         <item itemvalue="Application.JumpGameII" />
         <item itemvalue="Application.JumpGame" />
-        <item itemvalue="Application.ShortestJobFirst" />
       </list>
     </recent_temporary>
   </component>
@@ -614,7 +594,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757075662900</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="greedy and daily problems">
+      <option name="closed" value="true" />
+      <created>1759124140014</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1759124140014</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add BinarySubarraysWithSum implementation and update workspace configuration" />
     <MESSAGE value="add CountNumberOfNiceSubarrays implementation and update workspace configuration" />
     <MESSAGE value="add documentation to CountNumberOfNiceSubarrays implementation explaining the approach" />
     <MESSAGE value="add SubarraysWithKDifferentIntegers and SubarraysWithKDifferentIntegersWithKMinus1 implementations and update workspace configuration" />
@@ -657,7 +644,8 @@
     <MESSAGE value="add CelebrityProblem implementation and update workspace configuration" />
     <MESSAGE value="add RemoveDuplicateLetters using stack and String builder leetcode" />
     <MESSAGE value="ShortestUnsortedContinuousSubarray" />
-    <option name="LAST_COMMIT_MESSAGE" value="ShortestUnsortedContinuousSubarray" />
+    <MESSAGE value="greedy and daily problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="greedy and daily problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -787,6 +775,11 @@
           <url>file://$PROJECT_DIR$/untitled/src/greedy/ValidTriangleNumber.java</url>
           <line>6</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/greedy/MinimumNumberOfPlatformsRequiredForARailway.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

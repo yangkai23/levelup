@@ -4,9 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="add RemoveDuplicateLetters using stack and String builder leetcode">
-      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/ShortestUnsortedContinuousSubarray.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="ShortestUnsortedContinuousSubarray">
+      <change afterPath="$PROJECT_DIR$/untitled/src/design/Spreadsheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/AssignCookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/InsertInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/JumpGameII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/LargestTriangleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/LemonadeChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/MaximumProfitInJobScheduling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/ShortestJobFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/ValidTriangleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/DailyTemperatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/FinalPricesWithASpecialDiscountInAShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/FindTheMostCompetitiveSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/ShortestSubarrayToBeRemovedToMakeArraySorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/prefixsuffix/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/priorityqueue/SingleThreadedCPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/LongestWellPerformingInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/MaximumWidthRamp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/monotonicstack/MaximalRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/MaximalRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/monotonicstack/ShortestUnsortedContinuousSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/ShortestUnsortedContinuousSubarray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +43,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -48,19 +70,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AssignCookies.executor": "Debug",
     "Application.AsteroidCollision.executor": "Run",
     "Application.BinarySubarraysWithSum.executor": "Run",
     "Application.CelebrityProblem.executor": "Debug",
     "Application.ContainsDuplicateII.executor": "Run",
     "Application.CountNumberOfNiceSubarrays.executor": "Run",
+    "Application.DailyTemperatures.executor": "Run",
+    "Application.FinalPricesWithASpecialDiscountInAShop.executor": "Run",
+    "Application.FindTheMostCompetitiveSubsequence.executor": "Debug",
     "Application.FruitsInBasket.executor": "Debug",
+    "Application.JumpGame.executor": "Debug",
+    "Application.JumpGameII.executor": "Debug",
+    "Application.LemonadeChange.executor": "Run",
     "Application.LongestRepeatingCharacterReplacement.executor": "Debug",
     "Application.LongestSubarrayOf1sAfterDeletingOneElement.executor": "Debug",
     "Application.LongestSubstringWithAtmostK.executor": "Debug",
     "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Debug",
+    "Application.LongestWellPerformingInterval.executor": "Debug",
     "Application.MaxConsecutiveOnesIII.executor": "Debug",
-    "Application.MaximalRectangle.executor": "Run",
+    "Application.MaximalRectangle.executor": "Debug",
     "Application.MaximumPointsYouCanObtainFromCards.executor": "Debug",
+    "Application.MaximumWidthRamp.executor": "Debug",
     "Application.MinStack.executor": "Run",
     "Application.MinimumSizeSubarraySum.executor": "Debug",
     "Application.NextGreaterElement.executor": "Run",
@@ -70,12 +101,17 @@
     "Application.RectangleHistogram.executor": "Run",
     "Application.RemoveDuplicateLetters.executor": "Debug",
     "Application.RemoveKDigits.executor": "Run",
+    "Application.ShortestJobFirst.executor": "Debug",
+    "Application.ShortestSubarrayToBeRemovedToMakeArraySorted.executor": "Run",
     "Application.ShortestUnsortedContinuousSubarray.executor": "Debug",
     "Application.SlidingWindowMaximum.executor": "Run",
+    "Application.Spreadsheet.executor": "Debug",
     "Application.StringPlay.executor": "Debug",
     "Application.SubarraysWithKDifferentIntegers.executor": "Run",
     "Application.SumOfSubarrayMinimums.executor": "Debug",
     "Application.SumOfSubarrayRanges.executor": "Run",
+    "Application.TrappingRainWater.executor": "Debug",
+    "Application.ValidTriangleNumber.executor": "Debug",
     "Application.slidingwindow.MaximumPointsYouCanObtainFromCards.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -95,7 +131,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ShortestUnsortedContinuousSubarray">
+  <component name="RunManager" selected="Application.ValidTriangleNumber">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -109,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CelebrityProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointers.CelebrityProblem" />
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.JumpGame" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twopointers.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubarrayOf1sAfterDeletingOneElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestSubarrayOf1sAfterDeletingOneElement" />
+    <configuration name="JumpGameII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.JumpGameII" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="monotonicstack.RemoveDuplicateLetters" />
+    <configuration name="ShortestJobFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.ShortestJobFirst" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="monotonicstack.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestUnsortedContinuousSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="monotonicstack.ShortestUnsortedContinuousSubarray" />
+    <configuration name="Spreadsheet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.Spreadsheet" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="monotonicstack.*" />
+          <option name="PATTERN" value="design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="monotonicqueue.SlidingWindowMaximum" />
+    <configuration name="ValidTriangleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.ValidTriangleNumber" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="monotonicqueue.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,21 +225,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShortestUnsortedContinuousSubarray" />
-        <item itemvalue="Application.RemoveDuplicateLetters" />
-        <item itemvalue="Application.CelebrityProblem" />
-        <item itemvalue="Application.SlidingWindowMaximum" />
-        <item itemvalue="Application.LongestSubarrayOf1sAfterDeletingOneElement" />
+        <item itemvalue="Application.ValidTriangleNumber" />
+        <item itemvalue="Application.Spreadsheet" />
+        <item itemvalue="Application.JumpGameII" />
+        <item itemvalue="Application.JumpGame" />
+        <item itemvalue="Application.ShortestJobFirst" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -246,7 +274,9 @@
       <workItem from="1756179641735" duration="2699000" />
       <workItem from="1756357020927" duration="7480000" />
       <workItem from="1756642208140" duration="4838000" />
-      <workItem from="1756873185000" duration="7346000" />
+      <workItem from="1756873185000" duration="10717000" />
+      <workItem from="1757151951137" duration="6064000" />
+      <workItem from="1757324861712" duration="169000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -568,7 +598,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756751030545</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="ShortestUnsortedContinuousSubarray">
+      <option name="closed" value="true" />
+      <created>1757075647558</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1757075647558</updated>
+    </task>
+    <task id="LOCAL-00042" summary="ShortestUnsortedContinuousSubarray">
+      <option name="closed" value="true" />
+      <created>1757075662900</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1757075662900</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,7 +656,8 @@
     <MESSAGE value="add SlidingWindowMaximum implementation and update workspace configuration" />
     <MESSAGE value="add CelebrityProblem implementation and update workspace configuration" />
     <MESSAGE value="add RemoveDuplicateLetters using stack and String builder leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="add RemoveDuplicateLetters using stack and String builder leetcode" />
+    <MESSAGE value="ShortestUnsortedContinuousSubarray" />
+    <option name="LAST_COMMIT_MESSAGE" value="ShortestUnsortedContinuousSubarray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -662,9 +709,84 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/monotonicstack/DailyTemperatures.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/prefixsuffix/TrappingRainWater.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/prefixsuffix/TrappingRainWater.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/twopointers/MaximumWidthRamp.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/twopointers/LongestWellPerformingInterval.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/twopointers/LongestWellPerformingInterval.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/monotonicstack/FinalPricesWithASpecialDiscountInAShop.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/monotonicstack/MaximalRectangle.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/untitled/src/monotonicstack/ShortestUnsortedContinuousSubarray.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="14" />
+          <line>9</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/monotonicstack/ShortestSubarrayToBeRemovedToMakeArraySorted.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/greedy/AssignCookies.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/greedy/LemonadeChange.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/greedy/ShortestJobFirst.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/greedy/JumpGame.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/design/Spreadsheet.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/greedy/ValidTriangleNumber.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

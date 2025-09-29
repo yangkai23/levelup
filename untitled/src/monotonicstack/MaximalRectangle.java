@@ -9,17 +9,18 @@ import java.util.Deque;
  */
 public class MaximalRectangle {
     public static void main(String[] args) {
-        char[][] matrix = {{'1'}};
+        char[][] matrix = {{'1', '0', '1'}, {'1', '1', '0'}, {'1', '1', '0'}};
         System.out.println(maximalRectangle(matrix));
     }
 
     public static int maximalRectangle(char[][] matrix) {
         int[][] prefix = calculatePrefix(matrix);
         int maxArea = 0;
+        int count = 0;
         for (int[] row : prefix) {
-            maxArea = Math.max(maxArea, largestRectangleArea(row));
+            count += largestRectangleArea(row);
         }
-        return maxArea;
+        return count;
     }
 
     private static int[][] calculatePrefix(char[][] matrix) {
@@ -37,6 +38,7 @@ public class MaximalRectangle {
     }
 
     public static int largestRectangleArea(int[] heights) {
+        int count = 0;
         int maxArea = 0;
         Deque<Integer> stack = new ArrayDeque<>();
         for (int i = 0; i < heights.length; i++) {
@@ -44,7 +46,8 @@ public class MaximalRectangle {
 
                 int element = stack.pop();
                 int pse = stack.isEmpty() ? -1 : stack.peek();
-                int nse=i;
+                int nse = i;
+                count++;
                 maxArea = Math.max(maxArea, (nse - pse - 1) * heights[element]);
             }
             stack.push(i);
@@ -53,9 +56,10 @@ public class MaximalRectangle {
             int nse = heights.length;
             int element = stack.pop();
             int pse = stack.isEmpty() ? -1 : stack.peek();
+            count++;
             maxArea = Math.max(maxArea, (nse - pse - 1) * heights[element]);
         }
-        return maxArea;
+        return count;
     }
 
 }

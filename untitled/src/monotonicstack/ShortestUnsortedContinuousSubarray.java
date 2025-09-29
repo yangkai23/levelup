@@ -31,7 +31,7 @@ public class ShortestUnsortedContinuousSubarray {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,2,3,4};
+        int[] nums = {1,2,3,10,4,2,3,5};
         System.out.println(findUnsortedSubarray(nums));
     }
 }

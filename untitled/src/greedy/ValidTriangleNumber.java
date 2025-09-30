@@ -23,7 +23,7 @@ public class ValidTriangleNumber {
     }
 
     public static void main(String[] args) {
-        int[] nums={4,2,3,4};
+        int[] nums={1,2,1,10};
         System.out.println(triangleNumber(nums));
     }
 }

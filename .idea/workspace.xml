@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="greedy and daily problems">
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/MinimumNumberOfPlatformsRequiredForARailway.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="MinimumNumberOfPlatformsRequiredForARailway">
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/LargestPerimeterTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/streams/Anagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/greedy/ValidTriangleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/greedy/ValidTriangleNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Anagram.executor": "Debug",
     "Application.AssignCookies.executor": "Debug",
     "Application.AsteroidCollision.executor": "Run",
     "Application.BinarySubarraysWithSum.executor": "Run",
@@ -61,6 +64,7 @@
     "Application.FruitsInBasket.executor": "Debug",
     "Application.JumpGame.executor": "Debug",
     "Application.JumpGameII.executor": "Debug",
+    "Application.LargestPerimeterTriangle.executor": "Run",
     "Application.LemonadeChange.executor": "Run",
     "Application.LongestRepeatingCharacterReplacement.executor": "Debug",
     "Application.LongestSubarrayOf1sAfterDeletingOneElement.executor": "Debug",
@@ -111,7 +115,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MinimumNumberOfPlatformsRequiredForARailway">
+  <component name="RunManager" selected="Application.Anagram">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -125,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.JumpGame" />
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.Anagram" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpGameII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.JumpGameII" />
+    <configuration name="LargestPerimeterTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.LargestPerimeterTriangle" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -205,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinimumNumberOfPlatformsRequiredForARailway" />
+        <item itemvalue="Application.Anagram" />
+        <item itemvalue="Application.LargestPerimeterTriangle" />
         <item itemvalue="Application.ValidTriangleNumber" />
+        <item itemvalue="Application.MinimumNumberOfPlatformsRequiredForARailway" />
         <item itemvalue="Application.Spreadsheet" />
-        <item itemvalue="Application.JumpGameII" />
-        <item itemvalue="Application.JumpGame" />
       </list>
     </recent_temporary>
   </component>
@@ -602,7 +606,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759124140014</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="MinimumNumberOfPlatformsRequiredForARailway">
+      <option name="closed" value="true" />
+      <created>1759126146461</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1759126146461</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +632,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add CountNumberOfNiceSubarrays implementation and update workspace configuration" />
     <MESSAGE value="add documentation to CountNumberOfNiceSubarrays implementation explaining the approach" />
     <MESSAGE value="add SubarraysWithKDifferentIntegers and SubarraysWithKDifferentIntegersWithKMinus1 implementations and update workspace configuration" />
     <MESSAGE value="add ContainsDuplicateII implementation and update workspace configuration" />
@@ -645,7 +656,8 @@
     <MESSAGE value="add RemoveDuplicateLetters using stack and String builder leetcode" />
     <MESSAGE value="ShortestUnsortedContinuousSubarray" />
     <MESSAGE value="greedy and daily problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="greedy and daily problems" />
+    <MESSAGE value="MinimumNumberOfPlatformsRequiredForARailway" />
+    <option name="LAST_COMMIT_MESSAGE" value="MinimumNumberOfPlatformsRequiredForARailway" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -772,13 +784,8 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/untitled/src/greedy/ValidTriangleNumber.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/untitled/src/greedy/MinimumNumberOfPlatformsRequiredForARailway.java</url>
-          <line>17</line>
+          <line>16</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="stream api practice">
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/MaximumUnitsOnATruck.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="Candy and Fractional knapsack">
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/BestTimeToBuyAndSellStockII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,7 @@
     "Application.Anagram.executor": "Run",
     "Application.AssignCookies.executor": "Debug",
     "Application.AsteroidCollision.executor": "Run",
+    "Application.BestTimeToBuyAndSellStockII.executor": "Debug",
     "Application.BinarySubarraysWithSum.executor": "Run",
     "Application.Candy.executor": "Run",
     "Application.CelebrityProblem.executor": "Debug",
@@ -116,7 +116,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaximumUnitsOnATruck">
+  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStockII">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -136,6 +136,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BestTimeToBuyAndSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.BestTimeToBuyAndSellStockII" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,19 +195,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidTriangleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.ValidTriangleNumber" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -210,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BestTimeToBuyAndSellStockII" />
         <item itemvalue="Application.MaximumUnitsOnATruck" />
         <item itemvalue="Application.Candy" />
         <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.LargestPerimeterTriangle" />
-        <item itemvalue="Application.ValidTriangleNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -623,7 +623,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759218685380</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Candy and Fractional knapsack">
+      <option name="closed" value="true" />
+      <created>1759465432383</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1759465432383</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add SubarraysWithKDifferentIntegers and SubarraysWithKDifferentIntegersWithKMinus1 implementations and update workspace configuration" />
     <MESSAGE value="add ContainsDuplicateII implementation and update workspace configuration" />
     <MESSAGE value="add MinimumSizeSubarraySum implementation and update workspace configuration" />
     <MESSAGE value="add MinStack and NextGreaterElement implementations and update workspace configuration" />
@@ -666,7 +673,8 @@
     <MESSAGE value="greedy and daily problems" />
     <MESSAGE value="MinimumNumberOfPlatformsRequiredForARailway" />
     <MESSAGE value="stream api practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream api practice" />
+    <MESSAGE value="Candy and Fractional knapsack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Candy and Fractional knapsack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -798,9 +806,9 @@
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/untitled/src/greedy/Candy.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="41" />
+          <url>file://$PROJECT_DIR$/untitled/src/greedy/BestTimeToBuyAndSellStockII.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

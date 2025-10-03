@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="Candy and Fractional knapsack">
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/BestTimeToBuyAndSellStockII.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="BestTimeToBuyAndSellStockII greedy">
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/GasStation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,7 @@
     "Application.FinalPricesWithASpecialDiscountInAShop.executor": "Run",
     "Application.FindTheMostCompetitiveSubsequence.executor": "Debug",
     "Application.FruitsInBasket.executor": "Debug",
+    "Application.GasStation.executor": "Debug",
     "Application.JumpGame.executor": "Debug",
     "Application.JumpGameII.executor": "Debug",
     "Application.LargestPerimeterTriangle.executor": "Run",
@@ -116,7 +117,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStockII">
+  <component name="RunManager" selected="Application.GasStation">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -169,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestPerimeterTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.LargestPerimeterTriangle" />
+    <configuration name="GasStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.GasStation" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -210,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GasStation" />
         <item itemvalue="Application.BestTimeToBuyAndSellStockII" />
         <item itemvalue="Application.MaximumUnitsOnATruck" />
         <item itemvalue="Application.Candy" />
         <item itemvalue="Application.Anagram" />
-        <item itemvalue="Application.LargestPerimeterTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -631,7 +632,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759465432383</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="BestTimeToBuyAndSellStockII greedy">
+      <option name="closed" value="true" />
+      <created>1759483695241</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1759483695241</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +658,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add ContainsDuplicateII implementation and update workspace configuration" />
     <MESSAGE value="add MinimumSizeSubarraySum implementation and update workspace configuration" />
     <MESSAGE value="add MinStack and NextGreaterElement implementations and update workspace configuration" />
     <MESSAGE value="add support for NextGreaterElement with two arrays and update workspace configuration" />
@@ -674,7 +682,8 @@
     <MESSAGE value="MinimumNumberOfPlatformsRequiredForARailway" />
     <MESSAGE value="stream api practice" />
     <MESSAGE value="Candy and Fractional knapsack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Candy and Fractional knapsack" />
+    <MESSAGE value="BestTimeToBuyAndSellStockII greedy" />
+    <option name="LAST_COMMIT_MESSAGE" value="BestTimeToBuyAndSellStockII greedy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -809,6 +818,11 @@
           <url>file://$PROJECT_DIR$/untitled/src/greedy/BestTimeToBuyAndSellStockII.java</url>
           <line>14</line>
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/greedy/GasStation.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

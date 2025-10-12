@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="GasStation greedy">
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/ArrayPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/CanPlaceFlowers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/IncreasingTripletSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/LargestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/MaximumDistanceInArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/MinimumNumberOfArrowsToBurstBalloons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/WiggleSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/streams/Practice.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="greedy dump">
+      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/SearchInsertPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +63,7 @@
     "Application.CountNumberOfNiceSubarrays.executor": "Run",
     "Application.DailyTemperatures.executor": "Run",
     "Application.FinalPricesWithASpecialDiscountInAShop.executor": "Run",
+    "Application.FindFirstAndLastPositionOfElementInSortedArray.executor": "Run",
     "Application.FindTheMostCompetitiveSubsequence.executor": "Debug",
     "Application.FruitsInBasket.executor": "Debug",
     "Application.GasStation.executor": "Debug",
@@ -102,6 +96,7 @@
     "Application.RectangleHistogram.executor": "Run",
     "Application.RemoveDuplicateLetters.executor": "Debug",
     "Application.RemoveKDigits.executor": "Run",
+    "Application.SearchInsertPosition.executor": "Debug",
     "Application.ShortestJobFirst.executor": "Debug",
     "Application.ShortestSubarrayToBeRemovedToMakeArraySorted.executor": "Run",
     "Application.ShortestUnsortedContinuousSubarray.executor": "Debug",
@@ -133,7 +128,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaximumDistanceInArrays">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/untitled/src/binarysearch" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SearchInsertPosition">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -173,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.LongestPalindrome" />
+    <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.FindFirstAndLastPositionOfElementInSortedArray" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumNumberOfArrowsToBurstBalloons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.MinimumNumberOfArrowsToBurstBalloons" />
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.SearchInsertPosition" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInsertPosition" />
+        <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
         <item itemvalue="Application.MaximumDistanceInArrays" />
         <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.ArrayPartition" />
-        <item itemvalue="Application.MinimumNumberOfArrowsToBurstBalloons" />
-        <item itemvalue="Application.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -664,7 +664,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759487378644</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="greedy dump">
+      <option name="closed" value="true" />
+      <created>1760168005010</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1760168005010</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add MinStack and NextGreaterElement implementations and update workspace configuration" />
     <MESSAGE value="add support for NextGreaterElement with two arrays and update workspace configuration" />
     <MESSAGE value="add NextGreaterElementII implementation and update workspace configuration" />
     <MESSAGE value="update workspace configuration" />
@@ -707,7 +714,8 @@
     <MESSAGE value="Candy and Fractional knapsack" />
     <MESSAGE value="BestTimeToBuyAndSellStockII greedy" />
     <MESSAGE value="GasStation greedy" />
-    <option name="LAST_COMMIT_MESSAGE" value="GasStation greedy" />
+    <MESSAGE value="greedy dump" />
+    <option name="LAST_COMMIT_MESSAGE" value="greedy dump" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -857,6 +865,16 @@
           <url>file://$PROJECT_DIR$/untitled/src/greedy/MaximumDistanceInArrays.java</url>
           <line>16</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/binarysearch/FindFirstAndLastPositionOfElementInSortedArray.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/binarysearch/SearchInsertPosition.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

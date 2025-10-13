@@ -16,11 +16,11 @@ public class FindMinimumInRotatedSortedArray {
         int min = 5001;
         while (low <= high) {
             int mid = (low + high) / 2;
-            min = Math.min(nums[mid], min);
             if (nums[low] <= nums[mid]) {
                 min = Math.min(nums[low], min);
                 low = mid + 1;
             } else {
+                min = Math.min(nums[mid], min);
                 high = mid - 1;
             }
 

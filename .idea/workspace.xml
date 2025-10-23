@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="config files added">
-      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/MinimizeMaxDistanceToGasStation.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="MinimizeMaxDistanceToGasStation 3 approaches">
+      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/KthSmallestProductOfTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/MedianOfTwoSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +79,7 @@
     "Application.LargestPerimeterTriangle.executor": "Run",
     "Application.LemonadeChange.executor": "Run",
     "Application.LongestBalancedSubstringI.executor": "Debug",
+    "Application.LongestCommonPrefix.executor": "Run",
     "Application.LongestPalindrome.executor": "Run",
     "Application.LongestRepeatingCharacterReplacement.executor": "Debug",
     "Application.LongestSubarrayOf1sAfterDeletingOneElement.executor": "Debug",
@@ -90,6 +93,7 @@
     "Application.MaximumPointsYouCanObtainFromCards.executor": "Debug",
     "Application.MaximumUnitsOnATruck.executor": "Run",
     "Application.MaximumWidthRamp.executor": "Debug",
+    "Application.MedianOfTwoSortedArrays.executor": "Run",
     "Application.MinStack.executor": "Run",
     "Application.MinimizeMaxDistanceToGasStation.executor": "Run",
     "Application.MinimumNumberOfArrowsToBurstBalloons.executor": "Run",
@@ -146,7 +150,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimizeMaxDistanceToGasStation">
+  <component name="RunManager" selected="Application.LongestCommonPrefix">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -160,21 +164,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheSmallestDivisorGivenAThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.FindTheSmallestDivisorGivenAThreshold" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KthMissingPositiveNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.KthMissingPositiveNumber" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.LongestCommonPrefix" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -188,6 +179,19 @@
     </configuration>
     <configuration name="MagneticForceBetweenTwoBalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarysearch.MagneticForceBetweenTwoBalls" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarysearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.MedianOfTwoSortedArrays" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -240,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.MinimizeMaxDistanceToGasStation" />
         <item itemvalue="Application.SplitArrayLargestSum" />
         <item itemvalue="Application.MagneticForceBetweenTwoBalls" />
-        <item itemvalue="Application.KthMissingPositiveNumber" />
-        <item itemvalue="Application.FindTheSmallestDivisorGivenAThreshold" />
       </list>
     </recent_temporary>
   </component>
@@ -292,14 +296,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00009" summary="changes">
-      <option name="closed" value="true" />
-      <created>1751450199487</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1751450199487</updated>
     </task>
     <task id="LOCAL-00010" summary="changes">
       <option name="closed" value="true" />
@@ -685,7 +681,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760945304290</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="MinimizeMaxDistanceToGasStation 3 approaches">
+      <option name="closed" value="true" />
+      <created>1761114659224</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1761114659224</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -703,7 +707,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update workspace configuration" />
     <MESSAGE value="add PreviousSmallerElement implementation and update workspace configuration" />
     <MESSAGE value="add SumOfSubarrayMinimums implementation and update workspace configuration" />
     <MESSAGE value="add AsteroidCollision implementation and update workspace configuration" />
@@ -728,7 +731,8 @@
     <MESSAGE value="greedy dump" />
     <MESSAGE value="binary search dump" />
     <MESSAGE value="config files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="config files added" />
+    <MESSAGE value="MinimizeMaxDistanceToGasStation 3 approaches" />
+    <option name="LAST_COMMIT_MESSAGE" value="MinimizeMaxDistanceToGasStation 3 approaches" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -943,6 +947,11 @@
           <url>file://$PROJECT_DIR$/untitled/src/binarysearch/MinimizeMaxDistanceToGasStation.java</url>
           <line>34</line>
           <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/binarysearch/MedianOfTwoSortedArrays.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

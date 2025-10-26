@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="binary search hard">
-      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/MaximizeSumOfSquaresOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/MedianInARowWiseSortedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/strings/LexicographicallySmallestStringAfterReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/strings/NextPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/SearchA2DMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/_3Sum.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="binary search med">
+      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/TwoSumIIInputArrayIsSorted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -304,14 +299,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00011" summary="changes">
-      <option name="closed" value="true" />
-      <created>1751455069873</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1751455069873</updated>
     </task>
     <task id="LOCAL-00012" summary="changes">
       <option name="closed" value="true" />
@@ -697,7 +684,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761235225482</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="binary search med">
+      <option name="closed" value="true" />
+      <created>1761450676435</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1761450676435</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -715,7 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add SumOfSubarrayMinimums implementation and update workspace configuration" />
     <MESSAGE value="add AsteroidCollision implementation and update workspace configuration" />
     <MESSAGE value="add RectangleHistogram implementation and update workspace configuration" />
     <MESSAGE value="add largestRectangleArea method to RectangleHistogram and update workspace configuration" />
@@ -740,7 +734,8 @@
     <MESSAGE value="config files added" />
     <MESSAGE value="MinimizeMaxDistanceToGasStation 3 approaches" />
     <MESSAGE value="binary search hard" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary search hard" />
+    <MESSAGE value="binary search med" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary search med" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="MinimizeMaxDistanceToGasStation 3 approaches">
-      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/KthSmallestProductOfTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/MedianOfTwoSortedArrays.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="binary search hard">
+      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/MaximizeSumOfSquaresOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/binarysearch/MedianInARowWiseSortedMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/strings/LexicographicallySmallestStringAfterReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/strings/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/SearchA2DMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/_3Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,10 +92,12 @@
     "Application.MagneticForceBetweenTwoBalls.executor": "Debug",
     "Application.MaxConsecutiveOnesIII.executor": "Debug",
     "Application.MaximalRectangle.executor": "Debug",
+    "Application.MaximizeSumOfSquaresOfDigits.executor": "Debug",
     "Application.MaximumDistanceInArrays.executor": "Run",
     "Application.MaximumPointsYouCanObtainFromCards.executor": "Debug",
     "Application.MaximumUnitsOnATruck.executor": "Run",
     "Application.MaximumWidthRamp.executor": "Debug",
+    "Application.MedianInARowWiseSortedMatrix.executor": "Debug",
     "Application.MedianOfTwoSortedArrays.executor": "Run",
     "Application.MinStack.executor": "Run",
     "Application.MinimizeMaxDistanceToGasStation.executor": "Run",
@@ -102,12 +107,14 @@
     "Application.MinimumSizeSubarraySum.executor": "Debug",
     "Application.NextGreaterElement.executor": "Run",
     "Application.NextGreaterElementII.executor": "Run",
+    "Application.NextPermutation.executor": "Debug",
     "Application.NumOfSubstringsContainingAllThreeCharacters.executor": "Debug",
     "Application.Practice.executor": "Run",
     "Application.PreviousSmallerElement.executor": "Debug",
     "Application.RectangleHistogram.executor": "Run",
     "Application.RemoveDuplicateLetters.executor": "Debug",
     "Application.RemoveKDigits.executor": "Run",
+    "Application.SearchA2DMatrix.executor": "Debug",
     "Application.SearchInRotatedSortedArray.executor": "Debug",
     "Application.SearchInsertPosition.executor": "Debug",
     "Application.ShortestJobFirst.executor": "Debug",
@@ -125,6 +132,7 @@
     "Application.TrappingRainWater.executor": "Debug",
     "Application.ValidTriangleNumber.executor": "Debug",
     "Application.WiggleSubsequence.executor": "Run",
+    "Application._3Sum.executor": "Run",
     "Application.slidingwindow.MaximumPointsYouCanObtainFromCards.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -150,7 +158,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestCommonPrefix">
+  <component name="RunManager" selected="Application.MedianInARowWiseSortedMatrix">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -164,8 +172,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.LongestCommonPrefix" />
+    <configuration name="MaximizeSumOfSquaresOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.MaximizeSumOfSquaresOfDigits" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -177,8 +185,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MagneticForceBetweenTwoBalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.MagneticForceBetweenTwoBalls" />
+    <configuration name="MedianInARowWiseSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.MedianInARowWiseSortedMatrix" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -190,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.MedianOfTwoSortedArrays" />
+    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.NextPermutation" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarysearch.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimizeMaxDistanceToGasStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.MinimizeMaxDistanceToGasStation" />
+    <configuration name="SearchA2DMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointers.SearchA2DMatrix" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarysearch.*" />
+          <option name="PATTERN" value="twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitArrayLargestSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.SplitArrayLargestSum" />
+    <configuration name="_3Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointers._3Sum" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarysearch.*" />
+          <option name="PATTERN" value="twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.MedianOfTwoSortedArrays" />
-        <item itemvalue="Application.MinimizeMaxDistanceToGasStation" />
-        <item itemvalue="Application.SplitArrayLargestSum" />
-        <item itemvalue="Application.MagneticForceBetweenTwoBalls" />
+        <item itemvalue="Application.MedianInARowWiseSortedMatrix" />
+        <item itemvalue="Application.MaximizeSumOfSquaresOfDigits" />
+        <item itemvalue="Application.NextPermutation" />
+        <item itemvalue="Application.SearchA2DMatrix" />
+        <item itemvalue="Application._3Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -296,14 +304,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00010" summary="changes">
-      <option name="closed" value="true" />
-      <created>1751450240419</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1751450240419</updated>
     </task>
     <task id="LOCAL-00011" summary="changes">
       <option name="closed" value="true" />
@@ -689,7 +689,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761114659224</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="binary search hard">
+      <option name="closed" value="true" />
+      <created>1761235225482</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1761235225482</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -707,7 +715,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add PreviousSmallerElement implementation and update workspace configuration" />
     <MESSAGE value="add SumOfSubarrayMinimums implementation and update workspace configuration" />
     <MESSAGE value="add AsteroidCollision implementation and update workspace configuration" />
     <MESSAGE value="add RectangleHistogram implementation and update workspace configuration" />
@@ -732,7 +739,8 @@
     <MESSAGE value="binary search dump" />
     <MESSAGE value="config files added" />
     <MESSAGE value="MinimizeMaxDistanceToGasStation 3 approaches" />
-    <option name="LAST_COMMIT_MESSAGE" value="MinimizeMaxDistanceToGasStation 3 approaches" />
+    <MESSAGE value="binary search hard" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary search hard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -952,6 +960,21 @@
           <url>file://$PROJECT_DIR$/untitled/src/binarysearch/MedianOfTwoSortedArrays.java</url>
           <line>61</line>
           <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/strings/NextPermutation.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/binarysearch/MaximizeSumOfSquaresOfDigits.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/binarysearch/MedianInARowWiseSortedMatrix.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="NumberOfLaserBeamsInABank">
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/BreadthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/DepthFirstSearch.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="graphs dfs and bfs">
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/proxydesignpattern/AccessType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/proxydesignpattern/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/proxydesignpattern/EmployeeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/proxydesignpattern/EmployeeDaoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/proxydesignpattern/EmployeeManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/proxydesignpattern/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/strings/CountAndSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/strings/IntegerToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/strings/StringCompression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -56,11 +64,12 @@
     "Application.AsteroidCollision.executor": "Run",
     "Application.BestTimeToBuyAndSellStockII.executor": "Debug",
     "Application.BinarySubarraysWithSum.executor": "Run",
-    "Application.BreadthFirstSearch.executor": "Debug",
+    "Application.BreadthFirstSearch.executor": "Run",
     "Application.CanPlaceFlowers.executor": "Run",
     "Application.Candy.executor": "Run",
     "Application.CelebrityProblem.executor": "Debug",
     "Application.ContainsDuplicateII.executor": "Run",
+    "Application.CountAndSay.executor": "Run",
     "Application.CountNumberOfNiceSubarrays.executor": "Run",
     "Application.DailyTemperatures.executor": "Run",
     "Application.DepthFirstSearch.executor": "Run",
@@ -74,6 +83,7 @@
     "Application.FruitsInBasket.executor": "Debug",
     "Application.GasStation.executor": "Debug",
     "Application.HIndexII.executor": "Debug",
+    "Application.IntegerToRoman.executor": "Debug",
     "Application.JumpGame.executor": "Debug",
     "Application.JumpGameII.executor": "Debug",
     "Application.KokoEatingBananas.executor": "Debug",
@@ -127,6 +137,7 @@
     "Application.SplitArrayLargestSum.executor": "Debug",
     "Application.Spreadsheet.executor": "Debug",
     "Application.SqrtX.executor": "Debug",
+    "Application.StringCompression.executor": "Debug",
     "Application.StringPlay.executor": "Debug",
     "Application.SubarraysWithKDifferentIntegers.executor": "Run",
     "Application.SumOfSubarrayMinimums.executor": "Debug",
@@ -157,12 +168,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lld.proxydesignpattern" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/untitled/src/binarysearch" />
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DepthFirstSearch">
+  <component name="RunManager" selected="Application.EmployeeManagement">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -189,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.DepthFirstSearch" />
+    <configuration name="CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.CountAndSay" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lld.chainofresponsibility.Main" />
+    <configuration name="EmployeeManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lld.proxydesignpattern.EmployeeManagement" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lld.chainofresponsibility.*" />
+          <option name="PATTERN" value="lld.proxydesignpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,12 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfLaserBeamsInABank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrix.NumberOfLaserBeamsInABank" />
+    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.IntegerToRoman" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrix.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lld.snakeandladder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lld.snakeandladder.Main" />
+    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StringCompression" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lld.snakeandladder.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DepthFirstSearch" />
+        <item itemvalue="Application.EmployeeManagement" />
+        <item itemvalue="Application.IntegerToRoman" />
+        <item itemvalue="Application.CountAndSay" />
+        <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.BreadthFirstSearch" />
-        <item itemvalue="Application.NumberOfLaserBeamsInABank" />
-        <item itemvalue="Application.lld.snakeandladder.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -308,14 +322,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00016" summary="add BinarySubarraysWithSum implementation and update workspace configuration">
-      <option name="closed" value="true" />
-      <created>1752649835502</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1752649835502</updated>
     </task>
     <task id="LOCAL-00017" summary="add CountNumberOfNiceSubarrays implementation and update workspace configuration">
       <option name="closed" value="true" />
@@ -701,7 +707,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761535058056</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="graphs dfs and bfs">
+      <option name="closed" value="true" />
+      <created>1761544178890</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1761544178890</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,7 +733,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove unused import from MaximalRectangle and update workspace configuration" />
     <MESSAGE value="add RemoveKDigits implementation and update workspace configuration" />
     <MESSAGE value="changes" />
     <MESSAGE value="add JavaDoc for removeKDigits method in RemoveKDigits class and update workspace configuration" />
@@ -744,7 +757,8 @@
     <MESSAGE value="lld chain of responsibility design pattern" />
     <MESSAGE value="lld snake and ladder" />
     <MESSAGE value="NumberOfLaserBeamsInABank" />
-    <option name="LAST_COMMIT_MESSAGE" value="NumberOfLaserBeamsInABank" />
+    <MESSAGE value="graphs dfs and bfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="graphs dfs and bfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1006,9 +1020,9 @@
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/untitled/src/graphs/DepthFirstSearch.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="100" />
+          <url>file://$PROJECT_DIR$/untitled/src/strings/CountAndSay.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

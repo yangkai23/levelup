@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="graphs dump">
-      <change afterPath="$PROJECT_DIR$/untitled/src/daily/TheTwoSneakyNumbersOfDigitville.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/BipartiteGraphUsingBFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/NumberOfDistinctIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/NumberOfEnclaves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/SurroundedRegions.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="misc">
       <change afterPath="$PROJECT_DIR$/untitled/src/lld/bookmyshow/Address.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/untitled/src/lld/bookmyshow/BookMyShow.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/untitled/src/lld/bookmyshow/Booking.java" afterDir="false" />
@@ -23,9 +18,8 @@
       <change afterPath="$PROJECT_DIR$/untitled/src/lld/bookmyshow/Show.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/untitled/src/lld/bookmyshow/Theatre.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/untitled/src/lld/bookmyshow/TheatreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LU.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/graphs/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/graphs/NumberOfIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/strings/MakeTheStringGreat.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/strings/MakeTheStringGreat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +69,8 @@
     "Application.AsteroidCollision.executor": "Run",
     "Application.BestTimeToBuyAndSellStockII.executor": "Debug",
     "Application.BinarySubarraysWithSum.executor": "Run",
-    "Application.BipartiteGraphUsingBFS.executor": "Debug",
+    "Application.BipartiteGraphUsingBFS.executor": "Run",
+    "Application.BookMyShow.executor": "Debug",
     "Application.BreadthFirstSearch.executor": "Run",
     "Application.CanPlaceFlowers.executor": "Run",
     "Application.Candy.executor": "Run",
@@ -200,7 +195,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BipartiteGraphUsingBFS">
+  <component name="RunManager" selected="Application.BookMyShow">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -227,6 +222,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookMyShow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lld.bookmyshow.BookMyShow" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lld.bookmyshow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.IntegerToRoman" />
       <module name="untitled" />
@@ -242,19 +250,6 @@
     </configuration>
     <configuration name="NumberOfDistinctIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.NumberOfDistinctIslands" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SurroundedRegions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.SurroundedRegions" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -294,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookMyShow" />
         <item itemvalue="Application.BipartiteGraphUsingBFS" />
         <item itemvalue="Application.NumberOfDistinctIslands" />
         <item itemvalue="Application.TheTwoSneakyNumbersOfDigitville" />
         <item itemvalue="Application.IntegerToRoman" />
-        <item itemvalue="Application.SurroundedRegions" />
       </list>
     </recent_temporary>
   </component>
@@ -346,22 +341,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00021" summary="add MinimumSizeSubarraySum implementation and update workspace configuration">
-      <option name="closed" value="true" />
-      <created>1755086854845</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1755086854845</updated>
-    </task>
-    <task id="LOCAL-00022" summary="add MinStack and NextGreaterElement implementations and update workspace configuration">
-      <option name="closed" value="true" />
-      <created>1755429338477</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1755429338477</updated>
     </task>
     <task id="LOCAL-00023" summary="add support for NextGreaterElement with two arrays and update workspace configuration">
       <option name="closed" value="true" />
@@ -739,7 +718,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761781128983</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="graphs and strings">
+      <option name="closed" value="true" />
+      <created>1761995187069</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1761995187069</updated>
+    </task>
+    <task id="LOCAL-00071" summary="misc">
+      <option name="closed" value="true" />
+      <created>1761995267972</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1761995267972</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -757,8 +752,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add OnlineStockSpan implementation and update workspace configuration" />
-    <MESSAGE value="add SlidingWindowMaximum implementation and update workspace configuration" />
     <MESSAGE value="add CelebrityProblem implementation and update workspace configuration" />
     <MESSAGE value="add RemoveDuplicateLetters using stack and String builder leetcode" />
     <MESSAGE value="ShortestUnsortedContinuousSubarray" />
@@ -782,7 +775,9 @@
     <MESSAGE value="Proxy Design Pattern" />
     <MESSAGE value="strings dump" />
     <MESSAGE value="graphs dump" />
-    <option name="LAST_COMMIT_MESSAGE" value="graphs dump" />
+    <MESSAGE value="graphs and strings" />
+    <MESSAGE value="misc" />
+    <option name="LAST_COMMIT_MESSAGE" value="misc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1087,6 +1082,21 @@
           <url>file://$PROJECT_DIR$/untitled/src/graphs/BipartiteGraphUsingBFS.java</url>
           <line>42</line>
           <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/lld/bookmyshow/BookMyShow.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/lld/bookmyshow/BookMyShow.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/lld/bookmyshow/BookMyShow.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="125" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

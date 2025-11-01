@@ -24,7 +24,7 @@ bin/
 *.iws
 *.iml
 *.ipr
-workspace.xml
+.idea/workspace.xml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/

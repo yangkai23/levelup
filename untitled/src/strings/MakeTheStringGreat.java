@@ -13,6 +13,7 @@ public class MakeTheStringGreat {
     }
 
     public static String makeGood(String s) {
+
         char[] stack = new char[s.length()];
         int top = -1;
 

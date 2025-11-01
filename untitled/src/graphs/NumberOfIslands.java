@@ -2,6 +2,7 @@ package graphs;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Objects;
 
 /**
  * @author Anirudh
@@ -69,6 +70,19 @@ class Pair {
         this.first = first;
         this.second = second;
         this.third = third;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Pair)) return false;
+        Pair p = (Pair) o;
+        return first == p.first && second == p.second;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(first, second);
     }
 
     int second;

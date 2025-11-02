@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="misc">
-      <change afterPath="$PROJECT_DIR$/untitled/src/daily/CountUnguardedCellsInTheGrid.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="daily problem">
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/BipartiteGraphUsingDFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "Application.BestTimeToBuyAndSellStockII.executor": "Debug",
     "Application.BinarySubarraysWithSum.executor": "Run",
     "Application.BipartiteGraphUsingBFS.executor": "Run",
+    "Application.BipartiteGraphUsingDFS.executor": "Run",
     "Application.BookMyShow.executor": "Debug",
     "Application.BreadthFirstSearch.executor": "Run",
     "Application.CanPlaceFlowers.executor": "Run",
@@ -185,7 +186,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountUnguardedCellsInTheGrid">
+  <component name="RunManager" selected="Application.BipartiteGraphUsingDFS">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -199,8 +200,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BipartiteGraphUsingBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.BipartiteGraphUsingBFS" />
+    <configuration name="BipartiteGraphUsingDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.BipartiteGraphUsingDFS" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -279,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BipartiteGraphUsingDFS" />
         <item itemvalue="Application.CountUnguardedCellsInTheGrid" />
         <item itemvalue="Application.DeleteColumnsToMakeSorted" />
         <item itemvalue="Application.DeleteNodesFromLinkedListPresentInArray" />
         <item itemvalue="Application.BookMyShow" />
-        <item itemvalue="Application.BipartiteGraphUsingBFS" />
       </list>
     </recent_temporary>
   </component>
@@ -331,14 +332,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00027" summary="add SumOfSubarrayMinimums implementation and update workspace configuration">
-      <option name="closed" value="true" />
-      <created>1755709139656</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1755709139656</updated>
     </task>
     <task id="LOCAL-00028" summary="add SumOfSubarrayMinimums implementation and update workspace configuration">
       <option name="closed" value="true" />
@@ -724,7 +717,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762059689584</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="daily problem">
+      <option name="closed" value="true" />
+      <created>1762092524833</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1762092524833</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,7 +743,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="greedy and daily problems" />
     <MESSAGE value="MinimumNumberOfPlatformsRequiredForARailway" />
     <MESSAGE value="stream api practice" />
     <MESSAGE value="Candy and Fractional knapsack" />
@@ -767,7 +767,8 @@
     <MESSAGE value="strings" />
     <MESSAGE value="DeleteNodesFromLinkedListPresentInArray linked list" />
     <MESSAGE value="misc" />
-    <option name="LAST_COMMIT_MESSAGE" value="misc" />
+    <MESSAGE value="daily problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1087,6 +1088,11 @@
           <url>file://$PROJECT_DIR$/untitled/src/daily/CountUnguardedCellsInTheGrid.java</url>
           <line>68</line>
           <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/graphs/BipartiteGraphUsingDFS.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="133" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="Detect cycle in DirectedCyclicGraph">
-      <change afterPath="$PROJECT_DIR$/untitled/src/strings/MinimumTimeToMakeRopeColorful.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="daily problem">
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/nullobjectpattern/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/nullobjectpattern/NullObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/nullobjectpattern/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/nullobjectpattern/VehicleFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +191,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumTimeToMakeRopeColorful">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -228,12 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteColumnsToMakeSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.DeleteColumnsToMakeSorted" />
+    <configuration name="DirectedCyclicGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.DirectedCyclicGraph" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,12 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectedCyclicGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.DirectedCyclicGraph" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lld.nullobjectpattern.Main" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.*" />
+          <option name="PATTERN" value="lld.nullobjectpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MinimumTimeToMakeRopeColorful" />
         <item itemvalue="Application.DirectedCyclicGraph" />
         <item itemvalue="Application.BipartiteGraphUsingDFS" />
         <item itemvalue="Application.CountUnguardedCellsInTheGrid" />
-        <item itemvalue="Application.DeleteColumnsToMakeSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -334,14 +337,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00030" summary="add RectangleHistogram implementation and update workspace configuration">
-      <option name="closed" value="true" />
-      <created>1755885708371</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1755885708371</updated>
     </task>
     <task id="LOCAL-00031" summary="add largestRectangleArea method to RectangleHistogram and update workspace configuration">
       <option name="closed" value="true" />
@@ -727,7 +722,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762130721090</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="daily problem">
+      <option name="closed" value="true" />
+      <created>1762155195866</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1762155195866</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -767,10 +770,10 @@
     <MESSAGE value="strings" />
     <MESSAGE value="DeleteNodesFromLinkedListPresentInArray linked list" />
     <MESSAGE value="misc" />
-    <MESSAGE value="daily problem" />
     <MESSAGE value="bipartite using dfs" />
     <MESSAGE value="Detect cycle in DirectedCyclicGraph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Detect cycle in DirectedCyclicGraph" />
+    <MESSAGE value="daily problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1090,6 +1093,11 @@
           <url>file://$PROJECT_DIR$/untitled/src/daily/CountUnguardedCellsInTheGrid.java</url>
           <line>68</line>
           <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/strings/MinimumTimeToMakeRopeColorful.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="139" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

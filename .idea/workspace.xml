@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="daily problem">
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/FindEventualSafeStates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/TopologicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/Subsets.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="recursion">
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/DirectedCyclicGraphUsingKahnAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/PowerGridMaintenance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/kahnAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/daily/FindXSumOfAllKLongSubarraysI.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/daily/FindXSumOfAllKLongSubarraysI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +132,7 @@
     "Application.NumberOfLaserBeamsInABank.executor": "Run",
     "Application.NumberOfProvinces.executor": "Debug",
     "Application.OrderlyQueue.executor": "Run",
+    "Application.PowerGridMaintenance.executor": "Run",
     "Application.Practice.executor": "Run",
     "Application.PreviousSmallerElement.executor": "Debug",
     "Application.RectangleHistogram.executor": "Run",
@@ -168,6 +167,7 @@
     "Application.WiggleSubsequence.executor": "Run",
     "Application._01Matrix.executor": "Run",
     "Application._3Sum.executor": "Run",
+    "Application.kahnAlgorithm.executor": "Debug",
     "Application.lld.snakeandladder.Main.executor": "Run",
     "Application.slidingwindow.MaximumPointsYouCanObtainFromCards.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -198,7 +198,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Subsets">
+  <component name="RunManager" selected="Application.kahnAlgorithm">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -225,25 +225,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindEventualSafeStates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.FindEventualSafeStates" />
+    <configuration name="PowerGridMaintenance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.PowerGridMaintenance" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindXSumOfAllKLongSubarraysI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="daily.FindXSumOfAllKLongSubarraysI" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="daily.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,6 +264,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kahnAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.kahnAlgorithm" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -292,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kahnAlgorithm" />
+        <item itemvalue="Application.PowerGridMaintenance" />
         <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.TopologicalSort" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.FindEventualSafeStates" />
-        <item itemvalue="Application.FindXSumOfAllKLongSubarraysI" />
       </list>
     </recent_temporary>
   </component>
@@ -344,14 +344,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00033" summary="remove unused import from MaximalRectangle and update workspace configuration">
-      <option name="closed" value="true" />
-      <created>1756027320594</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1756027320594</updated>
     </task>
     <task id="LOCAL-00034" summary="add RemoveKDigits implementation and update workspace configuration">
       <option name="closed" value="true" />
@@ -737,7 +729,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762251510568</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="recursion">
+      <option name="closed" value="true" />
+      <created>1762446758160</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1762446758160</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +755,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BestTimeToBuyAndSellStockII greedy" />
     <MESSAGE value="GasStation greedy" />
     <MESSAGE value="greedy dump" />
     <MESSAGE value="binary search dump" />
@@ -780,7 +779,8 @@
     <MESSAGE value="Detect cycle in DirectedCyclicGraph" />
     <MESSAGE value="lld Null Object Pattern" />
     <MESSAGE value="daily problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily problem" />
+    <MESSAGE value="recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1130,6 +1130,16 @@
           <url>file://$PROJECT_DIR$/untitled/src/recursion/Subsets.java</url>
           <line>17</line>
           <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/graphs/kahnAlgorithm.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/graphs/kahnAlgorithm.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="156" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

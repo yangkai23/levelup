@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="Alien Dictionary">
-      <change afterPath="$PROJECT_DIR$/untitled/src/daily/CountOperationsToObtainZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/daily/IncrementSubmatricesByOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/daily/MaximumNumberOfOperationsToMoveOnesToTheEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/daily/MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/monotonicstack/MinimumOperationsToConvertAllElementsToZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/CheckIfAll1SAreAtLeastLengthKPlacesAway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/CountTheNumberOfSubstringsWithDominantOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/MinimumWindowSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/NumberOfSubstringsWithOnly1s.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dump">
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/JobSequencingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/NMeetings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/SetIntersectionSizeAtLeastTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,6 +96,7 @@
     "Application.HIndexII.executor": "Debug",
     "Application.IncrementSubmatricesByOne.executor": "Debug",
     "Application.IntegerToRoman.executor": "Run",
+    "Application.JobSequencingProblem.executor": "Debug",
     "Application.JumpGame.executor": "Debug",
     "Application.JumpGameII.executor": "Debug",
     "Application.KokoEatingBananas.executor": "Debug",
@@ -140,6 +135,7 @@
     "Application.MinimumSizeSubarraySum.executor": "Debug",
     "Application.MinimumTimeToMakeRopeColorful.executor": "Debug",
     "Application.MinimumWindowSubstring.executor": "Run",
+    "Application.NMeetings.executor": "Run",
     "Application.NextGreaterElement.executor": "Debug",
     "Application.NextGreaterElementII.executor": "Debug",
     "Application.NextPermutation.executor": "Debug",
@@ -159,6 +155,7 @@
     "Application.SearchA2DMatrix.executor": "Debug",
     "Application.SearchInRotatedSortedArray.executor": "Debug",
     "Application.SearchInsertPosition.executor": "Debug",
+    "Application.SetIntersectionSizeAtLeastTwo.executor": "Debug",
     "Application.ShortestJobFirst.executor": "Debug",
     "Application.ShortestSubarrayToBeRemovedToMakeArraySorted.executor": "Run",
     "Application.ShortestUnsortedContinuousSubarray.executor": "Debug",
@@ -215,7 +212,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckIfAll1SAreAtLeastLengthKPlacesAway">
+  <component name="RunManager" selected="Application.SetIntersectionSizeAtLeastTwo">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -242,12 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountTheNumberOfSubstringsWithDominantOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.CountTheNumberOfSubstringsWithDominantOnes" />
+    <configuration name="JobSequencingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.JobSequencingProblem" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,25 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncrementSubmatricesByOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="daily.IncrementSubmatricesByOne" />
+    <configuration name="NMeetings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.NMeetings" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="daily.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumNumberOfOperationsToMoveOnesToTheEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="daily.MaximumNumberOfOperationsToMoveOnesToTheEnd" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="daily.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,6 +271,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetIntersectionSizeAtLeastTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.SetIntersectionSizeAtLeastTwo" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetIntersectionSizeAtLeastTwo" />
+        <item itemvalue="Application.NMeetings" />
+        <item itemvalue="Application.JobSequencingProblem" />
         <item itemvalue="Application.CheckIfAll1SAreAtLeastLengthKPlacesAway" />
         <item itemvalue="Application.NumberOfSubstringsWithOnly1s" />
-        <item itemvalue="Application.CountTheNumberOfSubstringsWithDominantOnes" />
-        <item itemvalue="Application.IncrementSubmatricesByOne" />
-        <item itemvalue="Application.MaximumNumberOfOperationsToMoveOnesToTheEnd" />
       </list>
     </recent_temporary>
   </component>
@@ -361,14 +358,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00037" summary="add OnlineStockSpan implementation and update workspace configuration">
-      <option name="closed" value="true" />
-      <created>1756357177746</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1756357177747</updated>
     </task>
     <task id="LOCAL-00038" summary="add SlidingWindowMaximum implementation and update workspace configuration">
       <option name="closed" value="true" />
@@ -754,7 +743,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762577176878</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="dump">
+      <option name="closed" value="true" />
+      <created>1763423580706</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1763423580706</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -772,7 +769,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="config files added" />
     <MESSAGE value="MinimizeMaxDistanceToGasStation 3 approaches" />
     <MESSAGE value="binary search hard" />
     <MESSAGE value="binary search med" />
@@ -797,7 +793,8 @@
     <MESSAGE value="kahn algorithm" />
     <MESSAGE value="course schedule" />
     <MESSAGE value="Alien Dictionary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alien Dictionary" />
+    <MESSAGE value="dump" />
+    <option name="LAST_COMMIT_MESSAGE" value="dump" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1240,6 +1237,24 @@
           <url>file://$PROJECT_DIR$/untitled/src/slidingwindow/CheckIfAll1SAreAtLeastLengthKPlacesAway.java</url>
           <line>12</line>
           <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/greedy/JobSequencingProblem.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/greedy/JobSequencingProblem.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/greedy/SetIntersectionSizeAtLeastTwo.java</url>
+          <line>15</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="178" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

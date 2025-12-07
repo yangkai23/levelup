@@ -33,7 +33,6 @@ public class ShortestPathInWeightedUndirectedGraph {
             adjList.get(u).add(new int[]{v, wt});
             adjList.get(v).add(new int[]{u, wt});
         }
-
         int[][] dist = new int[n + 1][2];
         dist[1][0] = 0;
         dist[1][1] = 0;

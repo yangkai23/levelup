@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="ShortestPath problems">
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/BellmanFord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/CheapestFlightsWithinKStops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/MinimumMultiplicationsToReachEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/NumberOfWaysToArriveAtDestination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/PathWithMinimumEffort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/DisjointSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/FloydWarshall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/MinimumSpanningTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/graphs/ShortestPathInWeightedUndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/graphs/ShortestPathInWeightedUndirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/graphs/BellmanFord.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/graphs/BellmanFord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +94,7 @@
     "Application.FindKthRotation.executor": "Run",
     "Application.FindMinimumInRotatedSortedArray.executor": "Debug",
     "Application.FindPeakElement.executor": "Run",
+    "Application.FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance.executor": "Debug",
     "Application.FindTheDuplicateNumber.executor": "Debug",
     "Application.FindTheMostCompetitiveSubsequence.executor": "Debug",
     "Application.FindTheSmallestDivisorGivenAThreshold.executor": "Debug",
@@ -226,7 +226,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfWaysToArriveAtDestination">
+  <component name="RunManager" selected="Application.FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -242,6 +242,19 @@
     </configuration>
     <configuration name="CheapestFlightsWithinKStops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.CheapestFlightsWithinKStops" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -292,19 +305,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathInWeightedUndirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.ShortestPathInWeightedUndirectedGraph" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -320,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance" />
         <item itemvalue="Application.NumberOfWaysToArriveAtDestination" />
         <item itemvalue="Application.MinimumMultiplicationsToReachEnd" />
         <item itemvalue="Application.CheapestFlightsWithinKStops" />
         <item itemvalue="Application.ShortestDistanceInABinaryMaze" />
-        <item itemvalue="Application.ShortestPathInWeightedUndirectedGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -372,14 +372,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00043" summary="greedy and daily problems">
-      <option name="closed" value="true" />
-      <created>1759124140014</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1759124140014</updated>
     </task>
     <task id="LOCAL-00044" summary="MinimumNumberOfPlatformsRequiredForARailway">
       <option name="closed" value="true" />
@@ -765,7 +757,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764871344521</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="ShortestPath problems">
+      <option name="closed" value="true" />
+      <created>1765090604304</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1765090604304</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1289,6 +1289,11 @@
           <url>file://$PROJECT_DIR$/untitled/src/graphs/WordLadderII.java</url>
           <line>11</line>
           <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/graphs/FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="196" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

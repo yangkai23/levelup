@@ -12,7 +12,8 @@ public class BellmanFord {
         int[] dist = new int[V];
         Arrays.fill(dist, (int) 1e8);
         dist[src] = 0;
-
+        int[] temp=new int[V];
+        System.arraycopy(dist,0,temp,0,dist.length);
         while (V > 1) {
             for (int[] edge : edges) {
                 int u = edge[0];

@@ -45,11 +45,11 @@ public class DisjointSet {
         }
     }
 
-    public void unionBySize(int u, int v) {
+    public boolean unionBySize(int u, int v) {
         int ulp_u = findUltimateParent(u);
         int ulp_v = findUltimateParent(v);
         if (ulp_v == ulp_u)
-            return;
+            return false;
         if (size.get(ulp_v) < size.get(ulp_u)) {
             parent.set(ulp_v, ulp_u);
             size.set(ulp_u, size.get(ulp_v) + size.get(ulp_u));
@@ -57,6 +57,7 @@ public class DisjointSet {
             parent.set(ulp_u, ulp_v);
             size.set(ulp_v, size.get(ulp_u) + size.get(ulp_v));
         }
+        return true;
     }
 
 }

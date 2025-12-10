@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="ShortestPath problems">
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/DisjointSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/FloydWarshall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/MinimumSpanningTree.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dump">
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/AccountsMerge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/graphs/BellmanFord.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/graphs/BellmanFord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccountsMerge.executor": "Debug",
     "Application.AggressiveCows.executor": "Run",
     "Application.AlienDictionary.executor": "Debug",
     "Application.Anagram.executor": "Run",
@@ -226,7 +223,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance">
+  <component name="RunManager" selected="Application.AccountsMerge">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -236,6 +233,19 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="LevelUp" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountsMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.AccountsMerge" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -292,19 +302,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestDistanceInABinaryMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.ShortestDistanceInABinaryMaze" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -320,11 +317,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccountsMerge" />
         <item itemvalue="Application.FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance" />
         <item itemvalue="Application.NumberOfWaysToArriveAtDestination" />
         <item itemvalue="Application.MinimumMultiplicationsToReachEnd" />
         <item itemvalue="Application.CheapestFlightsWithinKStops" />
-        <item itemvalue="Application.ShortestDistanceInABinaryMaze" />
       </list>
     </recent_temporary>
   </component>
@@ -372,14 +369,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00044" summary="MinimumNumberOfPlatformsRequiredForARailway">
-      <option name="closed" value="true" />
-      <created>1759126146461</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1759126146461</updated>
     </task>
     <task id="LOCAL-00045" summary="stream api practice">
       <option name="closed" value="true" />
@@ -765,7 +754,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765090604304</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="dump">
+      <option name="closed" value="true" />
+      <created>1765304269766</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1765304269767</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -805,10 +802,10 @@
     <MESSAGE value="course schedule" />
     <MESSAGE value="Alien Dictionary" />
     <MESSAGE value="greedy dump" />
-    <MESSAGE value="dump" />
     <MESSAGE value="ShortestPathInUndirectedGraph" />
     <MESSAGE value="ShortestPath problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="ShortestPath problems" />
+    <MESSAGE value="dump" />
+    <option name="LAST_COMMIT_MESSAGE" value="dump" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

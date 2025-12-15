@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="accounts merge">
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/NumberOfIslandsII.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="number of Islands II">
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/MakingALargeIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/MostStonesRemovedWithSameRowOrColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/StronglyConnected.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/graphs/DisjointSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/graphs/DisjointSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/graphs/NumberOfIslandsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/graphs/NumberOfIslandsII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +123,7 @@
     "Application.MagneticForceBetweenTwoBalls.executor": "Debug",
     "Application.Main.executor": "Debug",
     "Application.MakeTheStringGreat.executor": "Run",
+    "Application.MakingALargeIsland.executor": "Debug",
     "Application.MaxConsecutiveOnesIII.executor": "Debug",
     "Application.MaximalRectangle.executor": "Debug",
     "Application.MaximizeSumOfSquaresOfDigits.executor": "Debug",
@@ -142,6 +145,7 @@
     "Application.MinimumSizeSubarraySum.executor": "Debug",
     "Application.MinimumTimeToMakeRopeColorful.executor": "Debug",
     "Application.MinimumWindowSubstring.executor": "Run",
+    "Application.MostStonesRemovedWithSameRowOrColumn.executor": "Debug",
     "Application.NMeetings.executor": "Run",
     "Application.NextGreaterElement.executor": "Debug",
     "Application.NextGreaterElementII.executor": "Debug",
@@ -177,6 +181,7 @@
     "Application.SqrtX.executor": "Debug",
     "Application.StringCompression.executor": "Debug",
     "Application.StringPlay.executor": "Debug",
+    "Application.StronglyConnected.executor": "Run",
     "Application.SubarraysWithKDifferentIntegers.executor": "Run",
     "Application.Subsets.executor": "Debug",
     "Application.SumOfSubarrayMinimums.executor": "Debug",
@@ -225,7 +230,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfIslandsII">
+  <component name="RunManager" selected="Application.StronglyConnected">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -252,8 +257,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance" />
+    <configuration name="MakingALargeIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.MakingALargeIsland" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -265,8 +270,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumMultiplicationsToReachEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.MinimumMultiplicationsToReachEnd" />
+    <configuration name="MostStonesRemovedWithSameRowOrColumn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.MostStonesRemovedWithSameRowOrColumn" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -291,8 +296,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfWaysToArriveAtDestination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.NumberOfWaysToArriveAtDestination" />
+    <configuration name="StronglyConnected" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.StronglyConnected" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -319,11 +324,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StronglyConnected" />
+        <item itemvalue="Application.MostStonesRemovedWithSameRowOrColumn" />
+        <item itemvalue="Application.MakingALargeIsland" />
         <item itemvalue="Application.NumberOfIslandsII" />
         <item itemvalue="Application.AccountsMerge" />
-        <item itemvalue="Application.FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance" />
-        <item itemvalue="Application.NumberOfWaysToArriveAtDestination" />
-        <item itemvalue="Application.MinimumMultiplicationsToReachEnd" />
       </list>
     </recent_temporary>
   </component>
@@ -371,14 +376,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00046" summary="Candy and Fractional knapsack">
-      <option name="closed" value="true" />
-      <created>1759465432383</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1759465432383</updated>
     </task>
     <task id="LOCAL-00047" summary="BestTimeToBuyAndSellStockII greedy">
       <option name="closed" value="true" />
@@ -764,7 +761,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765369039485</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="number of Islands II">
+      <option name="closed" value="true" />
+      <created>1765387450294</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1765387450294</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,7 +787,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lld chain of responsibility design pattern" />
     <MESSAGE value="lld snake and ladder" />
     <MESSAGE value="NumberOfLaserBeamsInABank" />
     <MESSAGE value="graphs dfs and bfs" />
@@ -807,7 +811,8 @@
     <MESSAGE value="ShortestPath problems" />
     <MESSAGE value="dump" />
     <MESSAGE value="accounts merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="accounts merge" />
+    <MESSAGE value="number of Islands II" />
+    <option name="LAST_COMMIT_MESSAGE" value="number of Islands II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1295,14 +1300,24 @@
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/untitled/src/graphs/NumberOfIslandsII.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="201" />
+          <url>file://$PROJECT_DIR$/untitled/src/graphs/MakingALargeIsland.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/untitled/src/graphs/NumberOfIslandsII.java</url>
+          <url>file://$PROJECT_DIR$/untitled/src/graphs/MakingALargeIsland.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/graphs/MostStonesRemovedWithSameRowOrColumn.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/graphs/StronglyConnected.java</url>
           <line>42</line>
-          <option name="timeStamp" value="202" />
+          <option name="timeStamp" value="225" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="articulation points">
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/CombinationSumII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/DistinctSubsequencesII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/NumberOfThatSatisfyTheGivenSumCondition.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="recursion problems">
+      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/SubsetSums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/recursion/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/recursion/Subsets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,14 +375,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00050" summary="binary search dump">
-      <option name="closed" value="true" />
-      <created>1760284626155</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1760284626155</updated>
     </task>
     <task id="LOCAL-00051" summary="binary search dump">
       <option name="closed" value="true" />
@@ -772,7 +760,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765890531668</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="recursion problems">
+      <option name="closed" value="true" />
+      <created>1766050857515</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1766050857515</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +786,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Proxy Design Pattern" />
     <MESSAGE value="strings dump" />
     <MESSAGE value="graphs dump" />
     <MESSAGE value="graphs and strings" />
@@ -815,7 +810,8 @@
     <MESSAGE value="kosaraju algo, stones problem and largest island" />
     <MESSAGE value="tarjan algorithm" />
     <MESSAGE value="articulation points" />
-    <option name="LAST_COMMIT_MESSAGE" value="articulation points" />
+    <MESSAGE value="recursion problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -15,8 +15,7 @@ public class Subsets {
 
     public static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
-        generateSubSets(nums, new ArrayList<Integer>(), result, 0);
-        result.add(new ArrayList<>());
+        generateSubSets(nums, new ArrayList<>(), result, 0);
         return result;
     }
 
@@ -25,13 +24,10 @@ public class Subsets {
             result.add(new ArrayList<>(currSubset));
             return;
         }
-
         currSubset.addLast(nums[idx]);
         generateSubSets(nums, currSubset, result, idx + 1);
         currSubset.removeLast();
         generateSubSets(nums, currSubset, result, idx + 1);
-
     }
-
 
 }

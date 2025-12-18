@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="tarjan algorithm">
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="articulation points">
+      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/CombinationSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/DistinctSubsequencesII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/NumberOfThatSatisfyTheGivenSumCondition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/recursion/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/recursion/Subsets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,175 +52,177 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AccountsMerge.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.AggressiveCows.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AlienDictionary.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Anagram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayPartition.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.AssignCookies.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.AsteroidCollision.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BestTimeToBuyAndSellStockII.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BinaryPrefixDivisibleBy5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySubarraysWithSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BipartiteGraphUsingBFS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BipartiteGraphUsingDFS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BookMyShow.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BreadthFirstSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CanPlaceFlowers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Candy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CelebrityProblem.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CheapestFlightsWithinKStops.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CheckIfAll1SAreAtLeastLengthKPlacesAway.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CheckIfArrayIsSortedAndRotated.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContainsDuplicateII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountAndSay.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountNumberOfNiceSubarrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountOperationsToObtainZero.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountTheNumberOfSubstringsWithDominantOnes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountUnguardedCellsInTheGrid.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CourseSchedule.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DailyTemperatures.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteColumnsToMakeSorted.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DeleteNodesFromLinkedListPresentInArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DepthFirstSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DetermineIfTwoStringsAreClose.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DirectedCyclicGraph.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeManagement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FinalPricesWithASpecialDiscountInAShop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindEventualSafeStates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindFirstAndLastPositionOfElementInSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindKthRotation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMinimumInRotatedSortedArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindPeakElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindTheDuplicateNumber.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindTheMostCompetitiveSubsequence.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindTheSmallestDivisorGivenAThreshold.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindXSumOfAllKLongSubarraysI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FruitsInBasket.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.GasStation.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HIndexII.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.IncrementSubmatricesByOne.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.IntegerToRoman.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JobSequencingProblem.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.JumpGame.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.JumpGameII.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.KokoEatingBananas.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.KthMissingPositiveNumber.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LargestNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestPerimeterTriangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LemonadeChange.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestBalancedSubstringI.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestRepeatingCharacterReplacement.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LongestSubarrayOf1sAfterDeletingOneElement.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LongestSubstringWithAtmostK.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LongestSubstringWithoutRepeatingCharacters.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LongestWellPerformingInterval.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MagneticForceBetweenTwoBalls.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MakeTheStringGreat.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MakingALargeIsland.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaxConsecutiveOnesIII.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaximalRectangle.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaximizeSumOfSquaresOfDigits.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaximumDistanceInArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumNumberOfOperationsToMoveOnesToTheEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumPointsYouCanObtainFromCards.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaximumUnitsOnATruck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumWidthRamp.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MedianInARowWiseSortedMatrix.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MedianOfTwoSortedArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimizeMaxDistanceToGasStation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumMultiplicationsToReachEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumNumberOfArrowsToBurstBalloons.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumNumberOfDaysToMakeMBouquets.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinimumNumberOfPlatformsRequiredForARailway.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinimumOperationsToConvertAllElementsToZero.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinimumSizeSubarraySum.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinimumTimeToMakeRopeColorful.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MostStonesRemovedWithSameRowOrColumn.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NMeetings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NextGreaterElement.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NextGreaterElementII.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NextPermutation.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NumOfSubstringsContainingAllThreeCharacters.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NumberOfDistinctIslands.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NumberOfIslandsII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberOfLaserBeamsInABank.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberOfProvinces.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NumberOfSubstringsWithOnly1s.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberOfWaysToArriveAtDestination.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderlyQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PowerGridMaintenance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PreviousSmallerElement.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RectangleHistogram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicateLetters.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RemoveKDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RestoreIPAddresses.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SearchA2DMatrix.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SearchInRotatedSortedArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SearchInsertPosition.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SetIntersectionSizeAtLeastTwo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ShortestDistanceInABinaryMaze.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShortestJobFirst.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ShortestPathInWeightedUndirectedGraph.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ShortestSubarrayToBeRemovedToMakeArraySorted.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShortestUnsortedContinuousSubarray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SingleElementInASortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SlidingWindowMaximum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SplitArrayLargestSum.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Spreadsheet.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SqrtX.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.StringCompression.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.StringPlay.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.StronglyConnected.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubarraysWithKDifferentIntegers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Subsets.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SumOfSubarrayMinimums.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SumOfSubarrayRanges.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SurroundedRegions.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TheTwoSneakyNumbersOfDigitville.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TopologicalSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TrappingRainWater.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TwoSumIIInputArrayIsSorted.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UndirectedGraphCycleUsingBfs.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.UndirectedGraphCycleUsingDfs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidTriangleNumber.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.WiggleSubsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordLadder.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.WordLadderII.executor&quot;: &quot;Debug&quot;,
-    &quot;Application._01Matrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application._3Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.kahnAlgorithm.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.lld.snakeandladder.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.slidingwindow.MaximumPointsYouCanObtainFromCards.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shanmukhaanirudhtalluri/Documents/projects/levelup&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountsMerge.executor": "Debug",
+    "Application.AggressiveCows.executor": "Run",
+    "Application.AlienDictionary.executor": "Debug",
+    "Application.Anagram.executor": "Run",
+    "Application.ArrayPartition.executor": "Debug",
+    "Application.AssignCookies.executor": "Debug",
+    "Application.AsteroidCollision.executor": "Run",
+    "Application.BestTimeToBuyAndSellStockII.executor": "Debug",
+    "Application.BinaryPrefixDivisibleBy5.executor": "Run",
+    "Application.BinarySubarraysWithSum.executor": "Run",
+    "Application.BipartiteGraphUsingBFS.executor": "Run",
+    "Application.BipartiteGraphUsingDFS.executor": "Run",
+    "Application.BookMyShow.executor": "Debug",
+    "Application.BreadthFirstSearch.executor": "Run",
+    "Application.CanPlaceFlowers.executor": "Run",
+    "Application.Candy.executor": "Run",
+    "Application.CelebrityProblem.executor": "Debug",
+    "Application.CheapestFlightsWithinKStops.executor": "Debug",
+    "Application.CheckIfAll1SAreAtLeastLengthKPlacesAway.executor": "Debug",
+    "Application.CheckIfArrayIsSortedAndRotated.executor": "Run",
+    "Application.CombinationSumII.executor": "Run",
+    "Application.ContainsDuplicateII.executor": "Run",
+    "Application.CountAndSay.executor": "Run",
+    "Application.CountNumberOfNiceSubarrays.executor": "Run",
+    "Application.CountOperationsToObtainZero.executor": "Run",
+    "Application.CountTheNumberOfSubstringsWithDominantOnes.executor": "Run",
+    "Application.CountUnguardedCellsInTheGrid.executor": "Run",
+    "Application.CourseSchedule.executor": "Debug",
+    "Application.DailyTemperatures.executor": "Run",
+    "Application.DeleteColumnsToMakeSorted.executor": "Debug",
+    "Application.DeleteNodesFromLinkedListPresentInArray.executor": "Debug",
+    "Application.DepthFirstSearch.executor": "Run",
+    "Application.DetermineIfTwoStringsAreClose.executor": "Debug",
+    "Application.DirectedCyclicGraph.executor": "Run",
+    "Application.DistinctSubsequencesII.executor": "Run",
+    "Application.EmployeeManagement.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.FinalPricesWithASpecialDiscountInAShop.executor": "Run",
+    "Application.FindEventualSafeStates.executor": "Run",
+    "Application.FindFirstAndLastPositionOfElementInSortedArray.executor": "Run",
+    "Application.FindKthRotation.executor": "Run",
+    "Application.FindMinimumInRotatedSortedArray.executor": "Debug",
+    "Application.FindPeakElement.executor": "Run",
+    "Application.FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance.executor": "Debug",
+    "Application.FindTheDuplicateNumber.executor": "Debug",
+    "Application.FindTheMostCompetitiveSubsequence.executor": "Debug",
+    "Application.FindTheSmallestDivisorGivenAThreshold.executor": "Debug",
+    "Application.FindXSumOfAllKLongSubarraysI.executor": "Run",
+    "Application.FruitsInBasket.executor": "Debug",
+    "Application.GasStation.executor": "Debug",
+    "Application.HIndexII.executor": "Debug",
+    "Application.IncrementSubmatricesByOne.executor": "Debug",
+    "Application.IntegerToRoman.executor": "Run",
+    "Application.JobSequencingProblem.executor": "Debug",
+    "Application.JumpGame.executor": "Debug",
+    "Application.JumpGameII.executor": "Debug",
+    "Application.KokoEatingBananas.executor": "Debug",
+    "Application.KthMissingPositiveNumber.executor": "Debug",
+    "Application.LargestNumber.executor": "Run",
+    "Application.LargestPerimeterTriangle.executor": "Run",
+    "Application.LemonadeChange.executor": "Run",
+    "Application.LongestBalancedSubstringI.executor": "Debug",
+    "Application.LongestCommonPrefix.executor": "Run",
+    "Application.LongestPalindrome.executor": "Run",
+    "Application.LongestRepeatingCharacterReplacement.executor": "Debug",
+    "Application.LongestSubarrayOf1sAfterDeletingOneElement.executor": "Debug",
+    "Application.LongestSubstringWithAtmostK.executor": "Debug",
+    "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Debug",
+    "Application.LongestWellPerformingInterval.executor": "Debug",
+    "Application.MagneticForceBetweenTwoBalls.executor": "Debug",
+    "Application.Main.executor": "Debug",
+    "Application.MakeTheStringGreat.executor": "Run",
+    "Application.MakingALargeIsland.executor": "Debug",
+    "Application.MaxConsecutiveOnesIII.executor": "Debug",
+    "Application.MaximalRectangle.executor": "Debug",
+    "Application.MaximizeSumOfSquaresOfDigits.executor": "Debug",
+    "Application.MaximumDistanceInArrays.executor": "Run",
+    "Application.MaximumNumberOfOperationsToMoveOnesToTheEnd.executor": "Run",
+    "Application.MaximumPointsYouCanObtainFromCards.executor": "Debug",
+    "Application.MaximumUnitsOnATruck.executor": "Run",
+    "Application.MaximumWidthRamp.executor": "Debug",
+    "Application.MedianInARowWiseSortedMatrix.executor": "Debug",
+    "Application.MedianOfTwoSortedArrays.executor": "Run",
+    "Application.MinStack.executor": "Run",
+    "Application.MinimizeMaxDistanceToGasStation.executor": "Run",
+    "Application.MinimumMultiplicationsToReachEnd.executor": "Run",
+    "Application.MinimumNumberOfArrowsToBurstBalloons.executor": "Run",
+    "Application.MinimumNumberOfDaysToMakeMBouquets.executor": "Debug",
+    "Application.MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1.executor": "Debug",
+    "Application.MinimumNumberOfPlatformsRequiredForARailway.executor": "Debug",
+    "Application.MinimumOperationsToConvertAllElementsToZero.executor": "Debug",
+    "Application.MinimumSizeSubarraySum.executor": "Debug",
+    "Application.MinimumTimeToMakeRopeColorful.executor": "Debug",
+    "Application.MinimumWindowSubstring.executor": "Run",
+    "Application.MostStonesRemovedWithSameRowOrColumn.executor": "Debug",
+    "Application.NMeetings.executor": "Run",
+    "Application.NextGreaterElement.executor": "Debug",
+    "Application.NextGreaterElementII.executor": "Debug",
+    "Application.NextPermutation.executor": "Debug",
+    "Application.NumOfSubstringsContainingAllThreeCharacters.executor": "Debug",
+    "Application.NumberOfDistinctIslands.executor": "Debug",
+    "Application.NumberOfIslandsII.executor": "Run",
+    "Application.NumberOfLaserBeamsInABank.executor": "Run",
+    "Application.NumberOfProvinces.executor": "Debug",
+    "Application.NumberOfSubstringsWithOnly1s.executor": "Run",
+    "Application.NumberOfWaysToArriveAtDestination.executor": "Run",
+    "Application.OrderlyQueue.executor": "Run",
+    "Application.PowerGridMaintenance.executor": "Run",
+    "Application.Practice.executor": "Run",
+    "Application.PreviousSmallerElement.executor": "Debug",
+    "Application.RectangleHistogram.executor": "Run",
+    "Application.RemoveDuplicateLetters.executor": "Debug",
+    "Application.RemoveKDigits.executor": "Run",
+    "Application.RestoreIPAddresses.executor": "Debug",
+    "Application.SearchA2DMatrix.executor": "Debug",
+    "Application.SearchInRotatedSortedArray.executor": "Debug",
+    "Application.SearchInsertPosition.executor": "Debug",
+    "Application.SetIntersectionSizeAtLeastTwo.executor": "Debug",
+    "Application.ShortestDistanceInABinaryMaze.executor": "Run",
+    "Application.ShortestJobFirst.executor": "Debug",
+    "Application.ShortestPathInWeightedUndirectedGraph.executor": "Debug",
+    "Application.ShortestSubarrayToBeRemovedToMakeArraySorted.executor": "Run",
+    "Application.ShortestUnsortedContinuousSubarray.executor": "Debug",
+    "Application.SingleElementInASortedArray.executor": "Run",
+    "Application.SlidingWindowMaximum.executor": "Run",
+    "Application.SplitArrayLargestSum.executor": "Debug",
+    "Application.Spreadsheet.executor": "Debug",
+    "Application.SqrtX.executor": "Debug",
+    "Application.StringCompression.executor": "Debug",
+    "Application.StringPlay.executor": "Debug",
+    "Application.StronglyConnected.executor": "Run",
+    "Application.SubarraysWithKDifferentIntegers.executor": "Run",
+    "Application.Subsets.executor": "Debug",
+    "Application.SumOfSubarrayMinimums.executor": "Debug",
+    "Application.SumOfSubarrayRanges.executor": "Run",
+    "Application.SurroundedRegions.executor": "Debug",
+    "Application.TheTwoSneakyNumbersOfDigitville.executor": "Debug",
+    "Application.TopologicalSort.executor": "Run",
+    "Application.TrappingRainWater.executor": "Debug",
+    "Application.TwoSumIIInputArrayIsSorted.executor": "Run",
+    "Application.UndirectedGraphCycleUsingBfs.executor": "Debug",
+    "Application.UndirectedGraphCycleUsingDfs.executor": "Run",
+    "Application.ValidTriangleNumber.executor": "Debug",
+    "Application.WiggleSubsequence.executor": "Run",
+    "Application.WordLadder.executor": "Debug",
+    "Application.WordLadderII.executor": "Debug",
+    "Application._01Matrix.executor": "Run",
+    "Application._3Sum.executor": "Run",
+    "Application.kahnAlgorithm.executor": "Debug",
+    "Application.lld.snakeandladder.Main.executor": "Run",
+    "Application.slidingwindow.MaximumPointsYouCanObtainFromCards.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/shanmukhaanirudhtalluri/Documents/projects/levelup",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lld.bookmyshow" />
@@ -226,7 +233,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StronglyConnected">
+  <component name="RunManager" selected="Application.CombinationSumII">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -240,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountsMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.AccountsMerge" />
+    <configuration name="CombinationSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.CombinationSumII" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakingALargeIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.MakingALargeIsland" />
+    <configuration name="DistinctSubsequencesII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.DistinctSubsequencesII" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,19 +275,6 @@
     </configuration>
     <configuration name="MostStonesRemovedWithSameRowOrColumn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.MostStonesRemovedWithSameRowOrColumn" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfIslandsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.NumberOfIslandsII" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -305,6 +299,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.Subsets" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -320,11 +327,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSumII" />
+        <item itemvalue="Application.DistinctSubsequencesII" />
+        <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.StronglyConnected" />
         <item itemvalue="Application.MostStonesRemovedWithSameRowOrColumn" />
-        <item itemvalue="Application.MakingALargeIsland" />
-        <item itemvalue="Application.NumberOfIslandsII" />
-        <item itemvalue="Application.AccountsMerge" />
       </list>
     </recent_temporary>
   </component>
@@ -372,14 +379,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00049" summary="greedy dump">
-      <option name="closed" value="true" />
-      <created>1760168005010</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1760168005010</updated>
     </task>
     <task id="LOCAL-00050" summary="binary search dump">
       <option name="closed" value="true" />
@@ -765,7 +764,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765872213631</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="articulation points">
+      <option name="closed" value="true" />
+      <created>1765890531668</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1765890531668</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -783,7 +790,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="graphs dfs and bfs" />
     <MESSAGE value="Proxy Design Pattern" />
     <MESSAGE value="strings dump" />
     <MESSAGE value="graphs dump" />
@@ -808,7 +814,8 @@
     <MESSAGE value="number of Islands II" />
     <MESSAGE value="kosaraju algo, stones problem and largest island" />
     <MESSAGE value="tarjan algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="tarjan algorithm" />
+    <MESSAGE value="articulation points" />
+    <option name="LAST_COMMIT_MESSAGE" value="articulation points" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1155,11 +1162,6 @@
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/untitled/src/recursion/Subsets.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="152" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/untitled/src/graphs/kahnAlgorithm.java</url>
           <line>18</line>
           <option name="timeStamp" value="155" />
@@ -1314,6 +1316,11 @@
           <url>file://$PROJECT_DIR$/untitled/src/graphs/StronglyConnected.java</url>
           <line>42</line>
           <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/recursion/CombinationSumII.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="226" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

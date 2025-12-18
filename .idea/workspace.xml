@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="recursion problems">
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/SubsetSums.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="recursion problems subset sum I">
+      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/SubsetsII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -375,14 +375,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00051" summary="binary search dump">
-      <option name="closed" value="true" />
-      <created>1760361524952</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1760361524952</updated>
     </task>
     <task id="LOCAL-00052" summary="binary search dump">
       <option name="closed" value="true" />
@@ -768,7 +760,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766050857515</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="recursion problems subset sum I">
+      <option name="closed" value="true" />
+      <created>1766051995402</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1766051995402</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -786,7 +786,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="strings dump" />
     <MESSAGE value="graphs dump" />
     <MESSAGE value="graphs and strings" />
     <MESSAGE value="BookMyShow lld" />
@@ -811,7 +810,8 @@
     <MESSAGE value="tarjan algorithm" />
     <MESSAGE value="articulation points" />
     <MESSAGE value="recursion problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion problems" />
+    <MESSAGE value="recursion problems subset sum I" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion problems subset sum I" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

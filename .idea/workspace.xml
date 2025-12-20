@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="recursion problems subset sum II">
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/PermutationsNormalApproach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/PermutationsSwapApproach.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="recursion problems permutation problems">
+      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/NQueens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -376,14 +375,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00053" summary="binary search dump">
-      <option name="closed" value="true" />
-      <created>1760368287346</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1760368287346</updated>
     </task>
     <task id="LOCAL-00054" summary="binary search dump">
       <option name="closed" value="true" />
@@ -769,7 +760,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766053871743</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="recursion problems permutation problems">
+      <option name="closed" value="true" />
+      <created>1766064198390</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1766064198390</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,7 +786,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="graphs and strings" />
     <MESSAGE value="BookMyShow lld" />
     <MESSAGE value="strings" />
     <MESSAGE value="DeleteNodesFromLinkedListPresentInArray linked list" />
@@ -812,7 +810,8 @@
     <MESSAGE value="recursion problems" />
     <MESSAGE value="recursion problems subset sum I" />
     <MESSAGE value="recursion problems subset sum II" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion problems subset sum II" />
+    <MESSAGE value="recursion problems permutation problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion problems permutation problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

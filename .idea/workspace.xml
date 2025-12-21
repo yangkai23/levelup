@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dp using memoization">
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/FrogJump.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="frog jump using memoization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/dynamicprogramming/FrogJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/FrogJump.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,14 +379,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00058" summary="MinimizeMaxDistanceToGasStation 3 approaches">
-      <option name="closed" value="true" />
-      <created>1761114659224</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1761114659224</updated>
     </task>
     <task id="LOCAL-00059" summary="binary search hard">
       <option name="closed" value="true" />
@@ -772,7 +764,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766306195807</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="frog jump using memoization">
+      <option name="closed" value="true" />
+      <created>1766316570774</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1766316570774</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +790,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bipartite using dfs" />
     <MESSAGE value="Detect cycle in DirectedCyclicGraph" />
     <MESSAGE value="lld Null Object Pattern" />
     <MESSAGE value="daily problem" />
@@ -815,7 +814,8 @@
     <MESSAGE value="M-colouring problem" />
     <MESSAGE value="backtracking problems" />
     <MESSAGE value="dp using memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp using memoization" />
+    <MESSAGE value="frog jump using memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="frog jump using memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

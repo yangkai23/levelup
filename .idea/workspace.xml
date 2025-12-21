@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="M-colouring problem">
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/CountInversions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/PalindromePartitioning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/PermutationSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/RatInAMaze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="backtracking problems">
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/ClimbingStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -382,14 +378,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00056" summary="config files added">
-      <option name="closed" value="true" />
-      <created>1760944147956</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1760944147956</updated>
     </task>
     <task id="LOCAL-00057" summary="config files added">
       <option name="closed" value="true" />
@@ -775,7 +763,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766226883575</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="backtracking problems">
+      <option name="closed" value="true" />
+      <created>1766298951225</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1766298951225</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -793,7 +789,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DeleteNodesFromLinkedListPresentInArray linked list" />
     <MESSAGE value="misc" />
     <MESSAGE value="bipartite using dfs" />
     <MESSAGE value="Detect cycle in DirectedCyclicGraph" />
@@ -818,7 +813,8 @@
     <MESSAGE value="recursion problems permutation problems" />
     <MESSAGE value="n_queens and SudokuSolver" />
     <MESSAGE value="M-colouring problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="M-colouring problem" />
+    <MESSAGE value="backtracking problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="backtracking problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

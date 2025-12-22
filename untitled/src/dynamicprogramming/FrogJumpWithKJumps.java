@@ -11,7 +11,7 @@ public class FrogJumpWithKJumps {
         int[] height = {};
     }
 
-    static int minCost(int[] height) {
+    static int frogJump(int[] height, int k) {
         int n = height.length;
         int[] dp = new int[n + 1];
 
@@ -101,26 +101,25 @@ public class FrogJumpWithKJumps {
      * Time Complexity: O(n × k) <br>
      * Space Complexity: O(k)
      */
-    private static int jumpWithKStopsUsingTabulationWithK_DPSizeArr(
-            int n, int[] height, int k) {
+    private static int jumpWithKStopsUsingTabulationWithK_DPSizeArr(int n, int[] height, int k) {
+
+        if (n == 0 || n == 1) return 0;
 
         Deque<Integer> dp = new ArrayDeque<>();
-        dp.addLast(0); // dp[0] = 0
+        dp.addLast(0);
 
         for (int idx = 1; idx < n; idx++) {
             int minCost = Integer.MAX_VALUE;
             int j = 1;
 
-            // Iterate over the last k DP values (sliding window)
-            for (int prevCost : dp) {
-                int cost =
-                        prevCost + Math.abs(height[idx] - height[idx - j]);
+            Iterator<Integer> it = dp.descendingIterator();
+            while (it.hasNext() && j <= k) {
+                int prevCost = it.next();
+                int cost = prevCost + Math.abs(height[idx] - height[idx - j]);
                 minCost = Math.min(minCost, cost);
                 j++;
-                if (j > k) break;
             }
 
-            // Maintain window size of k
             if (dp.size() == k) {
                 dp.removeFirst();
             }

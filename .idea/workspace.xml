@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dp problem">
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MaximumSumOfSubsequenceWithNonAdjacentElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/NinjasTraining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/UniquePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/UniquePathsII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +196,8 @@
     "Application.TwoSumIIInputArrayIsSorted.executor": "Run",
     "Application.UndirectedGraphCycleUsingBfs.executor": "Debug",
     "Application.UndirectedGraphCycleUsingDfs.executor": "Run",
-    "Application.UniquePaths.executor": "Debug",
+    "Application.UniquePaths.executor": "Run",
+    "Application.UniquePathsII.executor": "Run",
     "Application.ValidTriangleNumber.executor": "Debug",
     "Application.WiggleSubsequence.executor": "Run",
     "Application.WordLadder.executor": "Debug",
@@ -237,7 +236,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniquePaths">
+  <component name="RunManager" selected="Application.UniquePathsII">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -247,19 +246,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="LevelUp" />
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MColoringProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.MColoringProblem" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -316,6 +302,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniquePathsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.UniquePathsII" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -331,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniquePathsII" />
         <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.MaximumSumOfSubsequenceWithNonAdjacentElements" />
         <item itemvalue="Application.RatInAMaze" />
         <item itemvalue="Application.PalindromePartitioning" />
-        <item itemvalue="Application.MColoringProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -383,14 +382,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00063" summary="lld snake and ladder">
-      <option name="closed" value="true" />
-      <created>1761503754994</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1761503754994</updated>
     </task>
     <task id="LOCAL-00064" summary="NumberOfLaserBeamsInABank">
       <option name="closed" value="true" />
@@ -776,7 +767,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766476648434</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="dp problem">
+      <option name="closed" value="true" />
+      <created>1766646028212</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1766646028212</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1340,11 +1339,6 @@
           <url>file://$PROJECT_DIR$/untitled/src/dynamicprogramming/MaximumSumOfSubsequenceWithNonAdjacentElements.java</url>
           <line>17</line>
           <option name="timeStamp" value="232" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/untitled/src/dynamicprogramming/UniquePaths.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="234" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

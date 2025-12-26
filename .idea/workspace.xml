@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dp problems">
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dp problems Triangle" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -384,14 +381,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00066" summary="Proxy Design Pattern">
-      <option name="closed" value="true" />
-      <created>1761619148471</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1761619148471</updated>
     </task>
     <task id="LOCAL-00067" summary="strings dump">
       <option name="closed" value="true" />
@@ -777,7 +766,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766653227163</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="dp problems Triangle">
+      <option name="closed" value="true" />
+      <created>1766730264312</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1766730264312</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,7 +792,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="course schedule" />
     <MESSAGE value="Alien Dictionary" />
     <MESSAGE value="greedy dump" />
     <MESSAGE value="ShortestPathInUndirectedGraph" />
@@ -820,7 +816,8 @@
     <MESSAGE value="changes" />
     <MESSAGE value="dp problem" />
     <MESSAGE value="dp problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp problems" />
+    <MESSAGE value="dp problems Triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp problems Triangle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

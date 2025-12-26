@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dp problems">
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MinimumPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,6 +194,7 @@
     "Application.TheTwoSneakyNumbersOfDigitville.executor": "Debug",
     "Application.TopologicalSort.executor": "Run",
     "Application.TrappingRainWater.executor": "Debug",
+    "Application.Triangle.executor": "Run",
     "Application.TwoSumIIInputArrayIsSorted.executor": "Run",
     "Application.UndirectedGraphCycleUsingBfs.executor": "Debug",
     "Application.UndirectedGraphCycleUsingDfs.executor": "Run",
@@ -237,7 +238,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumPathSum">
+  <component name="RunManager" selected="Application.Triangle">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -277,12 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RatInAMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.RatInAMaze" />
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.Triangle" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,11 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Triangle" />
         <item itemvalue="Application.MinimumPathSum" />
         <item itemvalue="Application.UniquePathsII" />
         <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.MaximumSumOfSubsequenceWithNonAdjacentElements" />
-        <item itemvalue="Application.RatInAMaze" />
       </list>
     </recent_temporary>
   </component>
@@ -383,14 +384,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00065" summary="graphs dfs and bfs">
-      <option name="closed" value="true" />
-      <created>1761544178890</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1761544178890</updated>
     </task>
     <task id="LOCAL-00066" summary="Proxy Design Pattern">
       <option name="closed" value="true" />
@@ -776,7 +769,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766648777760</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="dp problems">
+      <option name="closed" value="true" />
+      <created>1766653227163</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1766653227163</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

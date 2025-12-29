@@ -1,8 +1,6 @@
 package graphs;
 
-import java.util.ArrayDeque;
-import java.util.Arrays;
-import java.util.Deque;
+import java.util.*;
 
 /**
  * @author Anirudh
@@ -26,6 +24,7 @@ public class _01Matrix {
         boolean[][] visited = new boolean[n][m];
 
         Deque<Pair> deque = new ArrayDeque<>();
+        Collections.binarySearch(new ArrayList<>(),0);
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (mat[i][j] == 0) {

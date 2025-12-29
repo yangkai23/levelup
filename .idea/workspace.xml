@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dp problems">
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="docs added">
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MinimumSumPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PartitionArrayIntoTwoArraysToMinimizeSumDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PartitionEqualSubsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PartitionsWithGivenDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PerfectSumProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/SubsetSumProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/ZeroOneKnapsackProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/binarysearch/MinimizeMaxDistanceToGasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/binarysearch/MinimizeMaxDistanceToGasStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/dynamicprogramming/CherryPickupII.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/CherryPickupII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/graphs/PathWithMinimumEffort.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/graphs/PathWithMinimumEffort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/graphs/_01Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/graphs/_01Matrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +170,7 @@
     &quot;Application.NumberOfWaysToArriveAtDestination.executor&quot;: &quot;Run&quot;,
     &quot;Application.OrderlyQueue.executor&quot;: &quot;Run&quot;,
     &quot;Application.PalindromePartitioning.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PartitionArrayIntoTwoArraysToMinimizeSumDifference.executor&quot;: &quot;Run&quot;,
     &quot;Application.PowerGridMaintenance.executor&quot;: &quot;Run&quot;,
     &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
     &quot;Application.PreviousSmallerElement.executor&quot;: &quot;Debug&quot;,
@@ -238,7 +248,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Triangle">
+  <component name="RunManager" selected="Application.PartitionArrayIntoTwoArraysToMinimizeSumDifference">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -252,8 +262,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSumOfSubsequenceWithNonAdjacentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.MaximumSumOfSubsequenceWithNonAdjacentElements" />
+    <configuration name="MinimumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.MinimumPathSum" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -265,8 +275,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.MinimumPathSum" />
+    <configuration name="PartitionArrayIntoTwoArraysToMinimizeSumDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.PartitionArrayIntoTwoArraysToMinimizeSumDifference" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -332,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionArrayIntoTwoArraysToMinimizeSumDifference" />
         <item itemvalue="Application.Triangle" />
         <item itemvalue="Application.MinimumPathSum" />
         <item itemvalue="Application.UniquePathsII" />
         <item itemvalue="Application.UniquePaths" />
-        <item itemvalue="Application.MaximumSumOfSubsequenceWithNonAdjacentElements" />
       </list>
     </recent_temporary>
   </component>
@@ -384,14 +394,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00069" summary="graphs dump">
-      <option name="closed" value="true" />
-      <created>1761781128983</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1761781128983</updated>
     </task>
     <task id="LOCAL-00070" summary="graphs and strings">
       <option name="closed" value="true" />
@@ -777,7 +779,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766773998728</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="docs added">
+      <option name="closed" value="true" />
+      <created>1766819732520</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1766819732521</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,7 +805,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Alien Dictionary" />
     <MESSAGE value="greedy dump" />
     <MESSAGE value="ShortestPathInUndirectedGraph" />
     <MESSAGE value="ShortestPath problems" />
@@ -820,7 +829,8 @@
     <MESSAGE value="dp problem" />
     <MESSAGE value="dp problems Triangle" />
     <MESSAGE value="dp problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp problems" />
+    <MESSAGE value="docs added" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1088,12 +1098,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/untitled/src/graphs/_01Matrix.java</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/untitled/src/graphs/_01Matrix.java</url>
-          <line>38</line>
+          <line>40</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

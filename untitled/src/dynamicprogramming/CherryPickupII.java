@@ -61,17 +61,21 @@ public class CherryPickupII {
         if (dp[row][col1][col2] != -1)
             return dp[row][col1][col2];
         int max = -(int) 1e9;
+        int cherries = (col1 == col2)
+                ? grid[row][col1]
+                : grid[row][col1] + grid[row][col2];
+
         for (int i = -1; i <= 1; i++) {
             for (int j = -1; j <= 1; j++) {
-                int val = 0;
-                if (col1 == col2) {
-                    val = grid[row][col1];
-                } else
-                    val = grid[row][col1] + grid[row][col2];
+                int nextCol1 = col1 + i;
+                int nextCol2 = col2 + j;
 
-                val += findMaxCherriesUsingMemoization(grid, row + 1, col1 + i, col2 + j, n, m, dp);
+                if (nextCol1 >= 0 && nextCol1 < m &&
+                        nextCol2 >= 0 && nextCol2 < m) {
 
-                max = Math.max(max, val);
+                    int val = cherries + findMaxCherriesUsingMemoization(grid, row + 1, col1 + i, col2 + j, n, m, dp);
+                    max = Math.max(max, val);
+                }
             }
         }
         dp[row][col1][col2] = max;

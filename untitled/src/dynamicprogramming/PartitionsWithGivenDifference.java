@@ -92,7 +92,7 @@ public class PartitionsWithGivenDifference {
         if (nums[0] != 0 && nums[0] <= target) dp[0][nums[0]] = 1;
 
         for (int i = 1; i < n; i++) {
-            for (int k = 1; k <= target; k++) {
+            for (int k = 0; k <= target; k++) {
                 int notTaken = dp[i - 1][k];
 
                 int taken = 0;

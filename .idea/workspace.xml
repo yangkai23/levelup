@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dp problems">
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/CoinChange.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="CoinChange">
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/KnapsackWithDuplicateItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PartitionsWithGivenDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PartitionsWithGivenDifference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,14 +386,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00071" summary="misc">
-      <option name="closed" value="true" />
-      <created>1761995267972</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1761995267972</updated>
     </task>
     <task id="LOCAL-00072" summary="BookMyShow lld">
       <option name="closed" value="true" />
@@ -778,7 +771,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767021529403</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="CoinChange">
+      <option name="closed" value="true" />
+      <created>1767078162323</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1767078162324</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -796,7 +797,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="greedy dump" />
     <MESSAGE value="ShortestPathInUndirectedGraph" />
     <MESSAGE value="ShortestPath problems" />
     <MESSAGE value="dump" />
@@ -821,7 +821,8 @@
     <MESSAGE value="dp problems Triangle" />
     <MESSAGE value="docs added" />
     <MESSAGE value="dp problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp problems" />
+    <MESSAGE value="CoinChange" />
+    <option name="LAST_COMMIT_MESSAGE" value="CoinChange" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

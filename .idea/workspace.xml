@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="CoinChange">
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/KnapsackWithDuplicateItems.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="unbounded Knapsack">
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/DistinctSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/LongestCommonSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/LongestPalindromicSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PrintAllLCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PrintLongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/RodCutting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/ShortestCommonSupersequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PartitionsWithGivenDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PartitionsWithGivenDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/dynamicprogramming/KnapsackWithDuplicateItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/KnapsackWithDuplicateItems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +122,8 @@
     &quot;Application.LemonadeChange.executor&quot;: &quot;Run&quot;,
     &quot;Application.LongestBalancedSubstringI.executor&quot;: &quot;Debug&quot;,
     &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonSubstring.executor&quot;: &quot;Run&quot;,
     &quot;Application.LongestPalindrome.executor&quot;: &quot;Run&quot;,
     &quot;Application.LongestRepeatingCharacterReplacement.executor&quot;: &quot;Debug&quot;,
     &quot;Application.LongestSubarrayOf1sAfterDeletingOneElement.executor&quot;: &quot;Debug&quot;,
@@ -166,15 +176,18 @@
     &quot;Application.PowerGridMaintenance.executor&quot;: &quot;Run&quot;,
     &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
     &quot;Application.PreviousSmallerElement.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PrintLongestCommonSubsequence.executor&quot;: &quot;Run&quot;,
     &quot;Application.RatInAMaze.executor&quot;: &quot;Run&quot;,
     &quot;Application.RectangleHistogram.executor&quot;: &quot;Run&quot;,
     &quot;Application.RemoveDuplicateLetters.executor&quot;: &quot;Debug&quot;,
     &quot;Application.RemoveKDigits.executor&quot;: &quot;Run&quot;,
     &quot;Application.RestoreIPAddresses.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RodCutting.executor&quot;: &quot;Debug&quot;,
     &quot;Application.SearchA2DMatrix.executor&quot;: &quot;Debug&quot;,
     &quot;Application.SearchInRotatedSortedArray.executor&quot;: &quot;Debug&quot;,
     &quot;Application.SearchInsertPosition.executor&quot;: &quot;Debug&quot;,
     &quot;Application.SetIntersectionSizeAtLeastTwo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ShortestCommonSupersequence.executor&quot;: &quot;Run&quot;,
     &quot;Application.ShortestDistanceInABinaryMaze.executor&quot;: &quot;Run&quot;,
     &quot;Application.ShortestJobFirst.executor&quot;: &quot;Debug&quot;,
     &quot;Application.ShortestPathInWeightedUndirectedGraph.executor&quot;: &quot;Debug&quot;,
@@ -240,7 +253,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PartitionArrayIntoTwoArraysToMinimizeSumDifference">
+  <component name="RunManager" selected="Application.ShortestCommonSupersequence">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -254,8 +267,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.MinimumPathSum" />
+    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.LongestCommonSubsequence" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -267,8 +280,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionArrayIntoTwoArraysToMinimizeSumDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.PartitionArrayIntoTwoArraysToMinimizeSumDifference" />
+    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.LongestCommonSubstring" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -280,8 +293,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.Triangle" />
+    <configuration name="PrintLongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.PrintLongestCommonSubsequence" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -293,8 +306,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.UniquePaths" />
+    <configuration name="RodCutting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.RodCutting" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -306,8 +319,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePathsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.UniquePathsII" />
+    <configuration name="ShortestCommonSupersequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.ShortestCommonSupersequence" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -334,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PartitionArrayIntoTwoArraysToMinimizeSumDifference" />
-        <item itemvalue="Application.Triangle" />
-        <item itemvalue="Application.MinimumPathSum" />
-        <item itemvalue="Application.UniquePathsII" />
-        <item itemvalue="Application.UniquePaths" />
+        <item itemvalue="Application.ShortestCommonSupersequence" />
+        <item itemvalue="Application.LongestCommonSubstring" />
+        <item itemvalue="Application.PrintLongestCommonSubsequence" />
+        <item itemvalue="Application.LongestCommonSubsequence" />
+        <item itemvalue="Application.RodCutting" />
       </list>
     </recent_temporary>
   </component>
@@ -386,14 +399,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00072" summary="BookMyShow lld">
-      <option name="closed" value="true" />
-      <created>1762005316649</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1762005316649</updated>
     </task>
     <task id="LOCAL-00073" summary="strings">
       <option name="closed" value="true" />
@@ -779,7 +784,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767078162324</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="unbounded Knapsack">
+      <option name="closed" value="true" />
+      <created>1767093091369</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1767093091369</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -797,7 +810,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ShortestPathInUndirectedGraph" />
     <MESSAGE value="ShortestPath problems" />
     <MESSAGE value="dump" />
     <MESSAGE value="accounts merge" />
@@ -822,7 +834,8 @@
     <MESSAGE value="docs added" />
     <MESSAGE value="dp problems" />
     <MESSAGE value="CoinChange" />
-    <option name="LAST_COMMIT_MESSAGE" value="CoinChange" />
+    <MESSAGE value="unbounded Knapsack" />
+    <option name="LAST_COMMIT_MESSAGE" value="unbounded Knapsack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1338,6 +1351,16 @@
           <url>file://$PROJECT_DIR$/untitled/src/dynamicprogramming/MinimumPathSum.java</url>
           <line>30</line>
           <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/dynamicprogramming/ShortestCommonSupersequence.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/dynamicprogramming/ShortestCommonSupersequence.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="243" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

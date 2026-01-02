@@ -67,7 +67,7 @@ public class KnapsackWithDuplicateItems {
         int n = val.length;
 
 
-        int[] curr = new int[capacity + 1];
+//        int[] curr = new int[capacity + 1];
         int[] prev = new int[capacity + 1];
 
         for (int i = wt[0]; i <= capacity; i++) {
@@ -79,11 +79,11 @@ public class KnapsackWithDuplicateItems {
                 int notTake = prev[w];
                 int take = 0;
                 if (w >= wt[i]) {
-                    take = val[i] + curr[w - wt[i]];
+                    take = val[i] + prev[w - wt[i]];
                 }
-                curr[w] = Math.max(take, notTake);
+                prev[w] = Math.max(take, notTake);
             }
-            System.arraycopy(curr,0,prev,0,capacity+1);
+//            System.arraycopy(curr,0,prev,0,capacity+1);
         }
 
         return prev[capacity];

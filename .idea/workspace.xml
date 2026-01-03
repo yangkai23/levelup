@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="unbounded Knapsack">
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/DistinctSubsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/LongestCommonSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/LongestPalindromicSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PrintAllLCS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PrintLongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/RodCutting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/ShortestCommonSupersequence.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dp">
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/BestTimeToBuyAndSellStockII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/BestTimeToBuyAndSellStockIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/BestTimeToBuyAndSellStockIIIWithTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/BestTimeToBuyAndSellStockWithCooldown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/BestTimeToBuyAndSellStockWithTransactionFee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/WildcardMatching.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/dynamicprogramming/KnapsackWithDuplicateItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/KnapsackWithDuplicateItems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,14 +395,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00073" summary="strings">
-      <option name="closed" value="true" />
-      <created>1762059656681</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1762059656681</updated>
     </task>
     <task id="LOCAL-00074" summary="DeleteNodesFromLinkedListPresentInArray linked list">
       <option name="closed" value="true" />
@@ -792,7 +780,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767093091369</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="dp">
+      <option name="closed" value="true" />
+      <created>1767341215527</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1767341215528</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,7 +806,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ShortestPath problems" />
     <MESSAGE value="dump" />
     <MESSAGE value="accounts merge" />
     <MESSAGE value="number of Islands II" />
@@ -835,7 +830,8 @@
     <MESSAGE value="dp problems" />
     <MESSAGE value="CoinChange" />
     <MESSAGE value="unbounded Knapsack" />
-    <option name="LAST_COMMIT_MESSAGE" value="unbounded Knapsack" />
+    <MESSAGE value="dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

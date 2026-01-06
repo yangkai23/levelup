@@ -1,6 +1,8 @@
 package twopointers;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -15,33 +17,30 @@ public class MinimumSubarrayLengthWithDistinctSumAtLeastK {
 
     public static int minLength(int[] nums, int k) {
 
-
         int n = nums.length;
 
-        Set<Integer> set = new HashSet<>();
+        Map<Integer, Integer> freq = new HashMap<>();
 
         int i = 0, j = 0;
-        int sum = 0;
+        int distinctSum = 0;
         int minLen = Integer.MAX_VALUE;
 
         while (j < n) {
 
-            // shrink window if duplicate is coming
-            while (i < j && set.contains(nums[j])) {
-                set.remove(nums[i]);
-                sum -= nums[i];
-                i++;
+            // add nums[j]
+            freq.put(nums[j], freq.getOrDefault(nums[j], 0) + 1);
+            if (freq.get(nums[j]) == 1) {
+                distinctSum += nums[j];
             }
 
-            // add a new distinct element
-            set.add(nums[j]);
-            sum += nums[j];
-
-            // try minimizing a window
-            while (sum >= k) {
+            // try a shrinking window
+            while (distinctSum >= k) {
                 minLen = Math.min(minLen, j - i + 1);
-                sum -= nums[i];
-                set.remove(nums[i]);
+
+                freq.put(nums[i], freq.get(nums[i]) - 1);
+                if (freq.get(nums[i]) == 0) {
+                    distinctSum -= nums[i];
+                }
                 i++;
             }
 
@@ -50,4 +49,5 @@ public class MinimumSubarrayLengthWithDistinctSumAtLeastK {
 
         return minLen == Integer.MAX_VALUE ? -1 : minLen;
     }
+
 }

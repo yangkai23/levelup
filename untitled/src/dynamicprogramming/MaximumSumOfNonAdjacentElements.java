@@ -24,7 +24,7 @@ public class MaximumSumOfNonAdjacentElements {
         int pick = nums[n] + findSum(n - 2, nums);
 
         // when not picking the curr val, we can pick n-1
-        int notPick = findSum(n, nums);
+        int notPick = findSum(n-1, nums);
 
         return Math.max(pick, notPick);
     }

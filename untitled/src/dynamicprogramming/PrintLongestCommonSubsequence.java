@@ -10,7 +10,7 @@ import java.util.stream.IntStream;
 public class PrintLongestCommonSubsequence {
 
     public static void main(String[] args) {
-        System.out.println(findLcsUsingTabulation("abaaa", "baabaca"));
+        System.out.println(findLcsUsingTabulation("delete", "leet"));
     }
 
     static int findLcsUsingTabulation(String text1, String text2) {

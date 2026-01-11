@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dp">
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PalindromePartitioningII.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="Palindrome Partitioning II">
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/CountSquareSubmatricesWithAllOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MaxDotProductOfTwoSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MaximalSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MinimumASCIIDeleteSumForTwoStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PartitionArrayForMaximumSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/prefixsuffix/NumberOfCenteredSubarrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/CountResiduePrefixes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/strings/CountCaesarCipherPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/strings/LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MaximumSumOfNonAdjacentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MaximumSumOfNonAdjacentElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PrintLongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PrintLongestCommonSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +86,11 @@
     "Application.CombinationSumII.executor": "Run",
     "Application.ContainsDuplicateII.executor": "Run",
     "Application.CountAndSay.executor": "Run",
+    "Application.CountCaesarCipherPairs.executor": "Run",
     "Application.CountNumberOfNiceSubarrays.executor": "Run",
     "Application.CountOperationsToObtainZero.executor": "Run",
+    "Application.CountResiduePrefixes.executor": "Run",
+    "Application.CountSquareSubmatricesWithAllOnes.executor": "Run",
     "Application.CountTheNumberOfSubstringsWithDominantOnes.executor": "Run",
     "Application.CountUnguardedCellsInTheGrid.executor": "Run",
     "Application.CourseSchedule.executor": "Debug",
@@ -101,6 +116,7 @@
     "Application.FindXSumOfAllKLongSubarraysI.executor": "Run",
     "Application.FruitsInBasket.executor": "Debug",
     "Application.GasStation.executor": "Debug",
+    "Application.GenerateParentheses.executor": "Run",
     "Application.HIndexII.executor": "Debug",
     "Application.IncrementSubmatricesByOne.executor": "Debug",
     "Application.IntegerToRoman.executor": "Run",
@@ -112,6 +128,7 @@
     "Application.LargestNumber.executor": "Run",
     "Application.LargestPerimeterTriangle.executor": "Run",
     "Application.LemonadeChange.executor": "Run",
+    "Application.LetterCombinationsOfAPhoneNumber.executor": "Run",
     "Application.LongestBalancedSubstringI.executor": "Debug",
     "Application.LongestBitonicSubsequence.executor": "Debug",
     "Application.LongestCommonPrefix.executor": "Run",
@@ -144,6 +161,7 @@
     "Application.MedianOfTwoSortedArrays.executor": "Run",
     "Application.MinStack.executor": "Run",
     "Application.MinimizeMaxDistanceToGasStation.executor": "Run",
+    "Application.MinimumASCIIDeleteSumForTwoStrings.executor": "Run",
     "Application.MinimumCostToCutAStick.executor": "Debug",
     "Application.MinimumMultiplicationsToReachEnd.executor": "Run",
     "Application.MinimumNumberOfArrowsToBurstBalloons.executor": "Run",
@@ -252,7 +270,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BurstBalloons">
+  <component name="RunManager" selected="Application.CountCaesarCipherPairs">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -266,8 +284,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BurstBalloons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.BurstBalloons" />
+    <configuration name="CountCaesarCipherPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.CountCaesarCipherPairs" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountResiduePrefixes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.CountResiduePrefixes" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.GenerateParentheses" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumASCIIDeleteSumForTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.MinimumASCIIDeleteSumForTwoStrings" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -279,47 +336,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestBitonicSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.LongestBitonicSubsequence" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MatrixChainMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.MatrixChainMultiplication" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumCostToCutAStick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.MinimumCostToCutAStick" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfLongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.NumberOfLongestIncreasingSubsequence" />
+    <configuration name="PrintLongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.PrintLongestCommonSubsequence" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -346,11 +364,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BurstBalloons" />
-        <item itemvalue="Application.MinimumCostToCutAStick" />
-        <item itemvalue="Application.MatrixChainMultiplication" />
-        <item itemvalue="Application.NumberOfLongestIncreasingSubsequence" />
-        <item itemvalue="Application.LongestBitonicSubsequence" />
+        <item itemvalue="Application.CountCaesarCipherPairs" />
+        <item itemvalue="Application.CountResiduePrefixes" />
+        <item itemvalue="Application.MinimumASCIIDeleteSumForTwoStrings" />
+        <item itemvalue="Application.PrintLongestCommonSubsequence" />
+        <item itemvalue="Application.GenerateParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -398,14 +416,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00077" summary="bipartite using dfs">
-      <option name="closed" value="true" />
-      <created>1762098056086</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1762098056086</updated>
     </task>
     <task id="LOCAL-00078" summary="Detect cycle in DirectedCyclicGraph">
       <option name="closed" value="true" />
@@ -791,7 +801,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767704662877</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Palindrome Partitioning II">
+      <option name="closed" value="true" />
+      <created>1767708914870</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1767708914871</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -809,7 +827,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="number of Islands II" />
     <MESSAGE value="kosaraju algo, stones problem and largest island" />
     <MESSAGE value="tarjan algorithm" />
     <MESSAGE value="articulation points" />
@@ -834,7 +851,8 @@
     <MESSAGE value="wildcard and stock problems" />
     <MESSAGE value="biweekly contest 173" />
     <MESSAGE value="dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp" />
+    <MESSAGE value="Palindrome Partitioning II" />
+    <option name="LAST_COMMIT_MESSAGE" value="Palindrome Partitioning II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1375,6 +1393,11 @@
           <url>file://$PROJECT_DIR$/untitled/src/dynamicprogramming/MatrixChainMultiplication.java</url>
           <line>21</line>
           <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/strings/LetterCombinationsOfAPhoneNumber.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="253" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

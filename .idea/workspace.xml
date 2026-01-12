@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="Palindrome Partitioning II">
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/CountSquareSubmatricesWithAllOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MaxDotProductOfTwoSubsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MaximalSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MinimumASCIIDeleteSumForTwoStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PartitionArrayForMaximumSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/prefixsuffix/NumberOfCenteredSubarrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/GenerateParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/CountResiduePrefixes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/strings/CountCaesarCipherPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/strings/LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="random">
+      <change afterPath="$PROJECT_DIR$/untitled/src/daily/MinimumTimeVisitingAllPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MaximumSumOfNonAdjacentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/MaximumSumOfNonAdjacentElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PrintLongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PrintLongestCommonSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +161,7 @@
     "Application.MinimumSizeSubarraySum.executor": "Debug",
     "Application.MinimumSubarrayLengthWithDistinctSumAtLeastK.executor": "Debug",
     "Application.MinimumTimeToMakeRopeColorful.executor": "Debug",
+    "Application.MinimumTimeVisitingAllPoints.executor": "Run",
     "Application.MinimumWindowSubstring.executor": "Run",
     "Application.MostStonesRemovedWithSameRowOrColumn.executor": "Debug",
     "Application.NMeetings.executor": "Run",
@@ -270,7 +259,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountCaesarCipherPairs">
+  <component name="RunManager" selected="Application.MinimumTimeVisitingAllPoints">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -310,12 +299,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.GenerateParentheses" />
+    <configuration name="MinimumASCIIDeleteSumForTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.MinimumASCIIDeleteSumForTwoStrings" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,12 +312,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumASCIIDeleteSumForTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.MinimumASCIIDeleteSumForTwoStrings" />
+    <configuration name="MinimumTimeVisitingAllPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="daily.MinimumTimeVisitingAllPoints" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicprogramming.*" />
+          <option name="PATTERN" value="daily.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumTimeVisitingAllPoints" />
         <item itemvalue="Application.CountCaesarCipherPairs" />
         <item itemvalue="Application.CountResiduePrefixes" />
         <item itemvalue="Application.MinimumASCIIDeleteSumForTwoStrings" />
         <item itemvalue="Application.PrintLongestCommonSubsequence" />
-        <item itemvalue="Application.GenerateParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -416,14 +405,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00078" summary="Detect cycle in DirectedCyclicGraph">
-      <option name="closed" value="true" />
-      <created>1762130721090</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1762130721090</updated>
     </task>
     <task id="LOCAL-00079" summary="daily problem">
       <option name="closed" value="true" />
@@ -809,7 +790,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767708914871</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="random">
+      <option name="closed" value="true" />
+      <created>1768152631453</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1768152631453</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,7 +816,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kosaraju algo, stones problem and largest island" />
     <MESSAGE value="tarjan algorithm" />
     <MESSAGE value="articulation points" />
     <MESSAGE value="recursion problems" />
@@ -852,7 +840,8 @@
     <MESSAGE value="biweekly contest 173" />
     <MESSAGE value="dp" />
     <MESSAGE value="Palindrome Partitioning II" />
-    <option name="LAST_COMMIT_MESSAGE" value="Palindrome Partitioning II" />
+    <MESSAGE value="random" />
+    <option name="LAST_COMMIT_MESSAGE" value="random" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1398,6 +1387,11 @@
           <url>file://$PROJECT_DIR$/untitled/src/strings/LetterCombinationsOfAPhoneNumber.java</url>
           <line>31</line>
           <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/daily/MinimumTimeVisitingAllPoints.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="254" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

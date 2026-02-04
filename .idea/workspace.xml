@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="random">
-      <change afterPath="$PROJECT_DIR$/untitled/src/daily/MinimumTimeVisitingAllPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/arrays/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/arrays/LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/arrays/MajorityElementII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/arrays/MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/arrays/RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/bits/CountSubarraysWithGivenXorK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/dynamicprogramming/PascalsTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/MinimumCostPathWithEdgeReversals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/MinimumCostToConvertStringI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/greedy/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/matrix/SetMatrixZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/other/SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/recursion/PowXN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/FindTheDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/FindTheRepeatingAndMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/LongestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/LongestSubarrayWithSumK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +116,7 @@
     "Application.FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance.executor": "Debug",
     "Application.FindTheDuplicateNumber.executor": "Debug",
     "Application.FindTheMostCompetitiveSubsequence.executor": "Debug",
+    "Application.FindTheRepeatingAndMissingNumber.executor": "Run",
     "Application.FindTheSmallestDivisorGivenAThreshold.executor": "Debug",
     "Application.FindXSumOfAllKLongSubarraysI.executor": "Run",
     "Application.FruitsInBasket.executor": "Debug",
@@ -122,11 +139,14 @@
     "Application.LongestCommonPrefix.executor": "Run",
     "Application.LongestCommonSubsequence.executor": "Run",
     "Application.LongestCommonSubstring.executor": "Run",
+    "Application.LongestConsecutiveSequence.executor": "Run",
     "Application.LongestIncreasingSubsequence.executor": "Debug",
     "Application.LongestPalindrome.executor": "Run",
+    "Application.LongestPalindromicSubstring.executor": "Debug",
     "Application.LongestRepeatingCharacterReplacement.executor": "Debug",
     "Application.LongestStringChain.executor": "Run",
     "Application.LongestSubarrayOf1sAfterDeletingOneElement.executor": "Debug",
+    "Application.LongestSubarrayWithSumK.executor": "Debug",
     "Application.LongestSubstringWithAtmostK.executor": "Debug",
     "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Debug",
     "Application.LongestWellPerformingInterval.executor": "Debug",
@@ -142,6 +162,7 @@
     "Application.MaximumDistanceInArrays.executor": "Run",
     "Application.MaximumNumberOfOperationsToMoveOnesToTheEnd.executor": "Run",
     "Application.MaximumPointsYouCanObtainFromCards.executor": "Debug",
+    "Application.MaximumSubarray.executor": "Debug",
     "Application.MaximumSumOfSubsequenceWithNonAdjacentElements.executor": "Debug",
     "Application.MaximumUnitsOnATruck.executor": "Run",
     "Application.MaximumWidthRamp.executor": "Debug",
@@ -150,6 +171,7 @@
     "Application.MinStack.executor": "Run",
     "Application.MinimizeMaxDistanceToGasStation.executor": "Run",
     "Application.MinimumASCIIDeleteSumForTwoStrings.executor": "Run",
+    "Application.MinimumCostToConvertStringI.executor": "Debug",
     "Application.MinimumCostToCutAStick.executor": "Debug",
     "Application.MinimumMultiplicationsToReachEnd.executor": "Run",
     "Application.MinimumNumberOfArrowsToBurstBalloons.executor": "Run",
@@ -179,6 +201,7 @@
     "Application.OrderlyQueue.executor": "Run",
     "Application.PalindromePartitioning.executor": "Debug",
     "Application.PartitionArrayIntoTwoArraysToMinimizeSumDifference.executor": "Run",
+    "Application.PowXN.executor": "Debug",
     "Application.PowerGridMaintenance.executor": "Run",
     "Application.Practice.executor": "Run",
     "Application.PreviousSmallerElement.executor": "Debug",
@@ -193,6 +216,7 @@
     "Application.SearchInRotatedSortedArray.executor": "Debug",
     "Application.SearchInsertPosition.executor": "Debug",
     "Application.SetIntersectionSizeAtLeastTwo.executor": "Debug",
+    "Application.SetMatrixZeroes.executor": "Run",
     "Application.ShortestCommonSupersequence.executor": "Run",
     "Application.ShortestDistanceInABinaryMaze.executor": "Run",
     "Application.ShortestJobFirst.executor": "Debug",
@@ -201,6 +225,7 @@
     "Application.ShortestUnsortedContinuousSubarray.executor": "Debug",
     "Application.SingleElementInASortedArray.executor": "Run",
     "Application.SlidingWindowMaximum.executor": "Run",
+    "Application.SortColors.executor": "Debug",
     "Application.SplitArrayLargestSum.executor": "Debug",
     "Application.Spreadsheet.executor": "Debug",
     "Application.SqrtX.executor": "Debug",
@@ -259,7 +284,7 @@
       <recent name="$PROJECT_DIR$/configfiles/global" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumTimeVisitingAllPoints">
+  <component name="RunManager" selected="Application.LongestSubarrayWithSumK">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LevelUp" />
       <method v="2">
@@ -273,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountCaesarCipherPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.CountCaesarCipherPairs" />
+    <configuration name="FindTheDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointers.FindTheDuplicateNumber" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,12 +311,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountResiduePrefixes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.CountResiduePrefixes" />
+    <configuration name="FindTheRepeatingAndMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointers.FindTheRepeatingAndMissingNumber" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +324,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumASCIIDeleteSumForTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.MinimumASCIIDeleteSumForTwoStrings" />
+    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.LongestConsecutiveSequence" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicprogramming.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,12 +337,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumTimeVisitingAllPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="daily.MinimumTimeVisitingAllPoints" />
+    <configuration name="LongestSubarrayWithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointers.LongestSubarrayWithSumK" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="daily.*" />
+          <option name="PATTERN" value="twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,12 +350,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintLongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.PrintLongestCommonSubsequence" />
+    <configuration name="PowXN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.PowXN" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicprogramming.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,11 +378,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinimumTimeVisitingAllPoints" />
-        <item itemvalue="Application.CountCaesarCipherPairs" />
-        <item itemvalue="Application.CountResiduePrefixes" />
-        <item itemvalue="Application.MinimumASCIIDeleteSumForTwoStrings" />
-        <item itemvalue="Application.PrintLongestCommonSubsequence" />
+        <item itemvalue="Application.LongestSubarrayWithSumK" />
+        <item itemvalue="Application.LongestConsecutiveSequence" />
+        <item itemvalue="Application.PowXN" />
+        <item itemvalue="Application.FindTheRepeatingAndMissingNumber" />
+        <item itemvalue="Application.FindTheDuplicateNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -405,14 +430,6 @@
       <workItem from="1756873185000" duration="10717000" />
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
-    </task>
-    <task id="LOCAL-00079" summary="daily problem">
-      <option name="closed" value="true" />
-      <created>1762155195866</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1762155195866</updated>
     </task>
     <task id="LOCAL-00080" summary="lld Null Object Pattern">
       <option name="closed" value="true" />
@@ -798,7 +815,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768152631453</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="random">
+      <option name="closed" value="true" />
+      <created>1768198987699</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1768198987700</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1389,9 +1414,39 @@
           <option name="timeStamp" value="253" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/untitled/src/daily/MinimumTimeVisitingAllPoints.java</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/untitled/src/twopointers/LongestPalindromicSubstring.java</url>
+          <line>12</line>
           <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/graphs/MinimumCostToConvertStringI.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/graphs/MinimumCostToConvertStringI.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/twopointers/FindTheDuplicateNumber.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/recursion/PowXN.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/arrays/LongestConsecutiveSequence.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/arrays/LongestConsecutiveSequence.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="263" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

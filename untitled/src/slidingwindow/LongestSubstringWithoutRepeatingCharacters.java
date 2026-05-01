@@ -1,7 +1,9 @@
 package slidingwindow;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * @author shanmukhaanirudhtalluri
@@ -9,7 +11,7 @@ import java.util.Map;
  */
 public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
-        System.out.println(lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(longestNonRepeatingSubstring("abcabcbb"));
     }
 
     public static int lengthOfLongestSubstring(String s) {
@@ -27,5 +29,27 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
 
         return maxLength;
+    }
+
+    public static int longestNonRepeatingSubstring(String s) {
+
+        int n = s.length();
+
+        int max = Integer.MIN_VALUE;
+
+        for (int i = 0; i < n; i++) {
+            Set<Character> set = new HashSet<>();
+            int idx = i;
+            while (idx < n && !set.contains(s.charAt(idx))) {
+                set.add(s.charAt(idx));
+                idx++;
+            }
+
+           // brute force
+                max = Math.max(max, idx - i);
+
+        }
+
+        return max;
     }
 }

@@ -28,7 +28,11 @@ public class RotateImage {
 
     }
 
-    public void rotate1(int[][] matrix) {
+    public static void main(String[] args) {
+        int[][] mat={{1,2,3},{4,5,6},{7,8,9}};
+        rotate1(mat);
+    }
+        public static void rotate1(int[][] matrix) {
         int n = matrix.length;
         int i = 0;
         StringBuilder res=new StringBuilder();

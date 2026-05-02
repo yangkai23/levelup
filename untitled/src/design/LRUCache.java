@@ -9,16 +9,20 @@ import java.util.Map;
  */
 public class LRUCache {
 
-    Map<Integer, Node> nodeMap = new HashMap<>();
-    int capacity;
+    private final Map<Integer, Node> nodeMap;
 
-    Node head;
-    Node tail;
+    private final Node head;
+    private final Node tail;
+
+    private final int capacity;
 
     public LRUCache(int capacity) {
-        nodeMap.clear();
+        if (capacity <= 0) {
+            throw new RuntimeException("Capacity must be greater than 0");
+        }
         this.capacity = capacity;
 
+        nodeMap = new HashMap<>();
         head = new Node(-1, -1);
         tail = new Node(-1, -1);
 
@@ -26,51 +30,58 @@ public class LRUCache {
         tail.prev = head;
     }
 
+
     public int get(int key) {
 
         if (!nodeMap.containsKey(key))
             return -1;
 
         Node node = nodeMap.get(key);
-        deleteNode(node);
+        removeNode(node);
         insertAfterHead(node);
         return node.val;
 
     }
 
-    private void deleteNode(Node node) {
-        node.prev.next = node.next;
-        node.next.prev = node.prev;
-    }
+    public void put(int key, int val) {
 
-    private void insertAfterHead(Node node) {
-        node.next = head.next;
-        head.next.prev = node;
-        head.next = node;
-        node.prev = head;
-    }
-
-
-    public void put(int key, int value) {
         if (nodeMap.containsKey(key)) {
+
             Node node = nodeMap.get(key);
-            node.val = value;
-            deleteNode(node);
+            node.val = val;
+            removeNode(node);
             insertAfterHead(node);
-        } else {
-            if (capacity == nodeMap.size()) {
-                Node node = tail.prev;
-                nodeMap.remove(node.key);
-                deleteNode(node);
-            }
-
-            Node node = new Node(key, value);
-
-            insertAfterHead(node);
-            nodeMap.put(key, node);
+            return;
         }
 
+        if (capacity >= nodeMap.size()) {
 
+            Node node = tail.prev;
+            removeNode(node);
+            nodeMap.remove(node.key);
+        }
+
+        Node node = new Node(key, val);
+        insertAfterHead(node);
+        nodeMap.put(key, node);
+
+
+    }
+
+
+    private void insertAfterHead(Node node) {
+
+        node.next = head.next;
+        head.next.prev = node;
+        node.prev = head;
+        head.next = node;
+
+    }
+
+    private void removeNode(Node node) {
+
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
     }
 
 
@@ -80,7 +91,7 @@ public class LRUCache {
         int val;
         int key;
 
-        Node(int val, int key) {
+        Node(int key, int val) {
             this.val = val;
             this.key = key;
         }

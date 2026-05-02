@@ -5,36 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dump">
-      <change afterPath="$PROJECT_DIR$/untitled/src/arrays/SingleTon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/arrays/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/design/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/graphs/ShortestPathInBinaryMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/linkedlist/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/builder/PaymentInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/meetingscheduler/Attendee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/meetingscheduler/AvailabilityStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/meetingscheduler/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/meetingscheduler/BookingManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/meetingscheduler/BookingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/meetingscheduler/BookingStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/meetingscheduler/Calendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/meetingscheduler/Duration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/meetingscheduler/MeetingRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/meetingscheduler/MeetingRoomManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/meetingscheduler/MeetingScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/meetingscheduler/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/ratelimiter/RateLimiterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/ratelimiter/RateLimiterStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/ratelimiter/SlidingWindowCounterRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/lld/ratelimiter/TokenBucketStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/LongestSubstringWithAtMostKDistinctCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/MaximumSumOfDistinctSubarraysWithLengthK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/PermutationInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/twopointers/MaxConsecutiveOnes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/arrays/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/arrays/RotateImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/design/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/design/LRUCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -452,14 +424,6 @@
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
     </task>
-    <task id="LOCAL-00081" summary="daily problem">
-      <option name="closed" value="true" />
-      <created>1762251510568</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1762251510568</updated>
-    </task>
     <task id="LOCAL-00082" summary="recursion">
       <option name="closed" value="true" />
       <created>1762446758160</created>
@@ -844,7 +808,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770200740142</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="dump">
+      <option name="closed" value="true" />
+      <created>1777664990881</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1777664990881</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

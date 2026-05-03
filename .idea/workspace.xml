@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="dump">
+    <list default="true" id="6019837c-9814-4918-b3a0-aa2f55d97440" name="Changes" comment="lru">
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/LowestFloorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/NearestSpotStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/ParkingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/ParkingSpotLocater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/ParkingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/SpotType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/TicketManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/lld/parkinglot/VehicleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/design/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/design/LRUCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,14 +437,6 @@
       <workItem from="1757151951137" duration="6064000" />
       <workItem from="1757324861712" duration="169000" />
     </task>
-    <task id="LOCAL-00082" summary="recursion">
-      <option name="closed" value="true" />
-      <created>1762446758160</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1762446758160</updated>
-    </task>
     <task id="LOCAL-00083" summary="kahn algorithm">
       <option name="closed" value="true" />
       <created>1762531620595</created>
@@ -816,7 +821,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777664990881</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="lru">
+      <option name="closed" value="true" />
+      <created>1777734127104</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1777734127104</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -834,7 +847,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="articulation points" />
     <MESSAGE value="recursion problems" />
     <MESSAGE value="recursion problems subset sum I" />
     <MESSAGE value="recursion problems subset sum II" />
@@ -859,7 +871,8 @@
     <MESSAGE value="Palindrome Partitioning II" />
     <MESSAGE value="random" />
     <MESSAGE value="dump" />
-    <option name="LAST_COMMIT_MESSAGE" value="dump" />
+    <MESSAGE value="lru" />
+    <option name="LAST_COMMIT_MESSAGE" value="lru" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
